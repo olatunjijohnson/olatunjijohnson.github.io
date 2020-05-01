@@ -1,0 +1,1406 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Introduction Spatial probit models is very popular in spatial econometrics and the book of J. LeSage and Pace (2009) gives a very good overview. This is basically an extension of probit model when one is interested to adjust for both fixed and spatial random effect.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/probit_model/probit_modelling_markdown/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/post/probit_model/probit_modelling_markdown/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@teejay21111">
+  <meta property="twitter:creator" content="@teejay21111">
+  
+  <meta property="og:site_name" content="Dr Olatunji Johnson">
+  <meta property="og:url" content="/post/probit_model/probit_modelling_markdown/">
+  <meta property="og:title" content="Spatial Probit Model Using Gaussian Random Field | Dr Olatunji Johnson">
+  <meta property="og:description" content="Introduction Spatial probit models is very popular in spatial econometrics and the book of J. LeSage and Pace (2009) gives a very good overview. This is basically an extension of probit model when one is interested to adjust for both fixed and spatial random effect."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-03-14T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-03-14T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/post/probit_model/probit_modelling_markdown/"
+  },
+  "headline": "Spatial Probit Model Using Gaussian Random Field",
+  
+  "datePublished": "2019-03-14T00:00:00Z",
+  "dateModified": "2019-03-14T00:00:00Z",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Dr Olatunji Johnson",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Introduction Spatial probit models is very popular in spatial econometrics and the book of J. LeSage and Pace (2009) gives a very good overview. This is basically an extension of probit model when one is interested to adjust for both fixed and spatial random effect."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Spatial Probit Model Using Gaussian Random Field | Dr Olatunji Johnson</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Dr Olatunji Johnson</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Dr Olatunji Johnson</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Blog</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Spatial Probit Model Using Gaussian Random Field</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Mar 14, 2019
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    11 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Spatial probit models is very popular in spatial econometrics and the book of <span class="citation">J. LeSage and Pace (2009)</span> gives a very good overview. This is basically an extension of probit model when one is interested to adjust for both fixed and spatial random effect. <span class="citation">J. P. LeSage (2000)</span> model the spatial random effect using the class of Gaussian Markov Random Field (GMRF) introduced by <span class="citation">Besag, York, and Mollié (1991)</span> and provides a Bayesian procedure for fitting this class of model. <span class="citation">Smith and LeSage (2004)</span> further extends the probit model to allow for spatial random effect and individual random effect.</p>
+<p>Most of the extension to allow for spatial dependence structure utilises Simultatenous Autoregressive model (SAR) and Conditional autoregressive model (CAR) - a class of Gaussian markov random field (GMRF). The use of Guassian Random Field (GFR) is not popular for probit model, infact we cannot find any in literature. It was pointed out in <span class="citation">Brooks et al. (2011)</span> that estimating the covariance parameter of the GRF in a spatial probit model suffers from identifiability issues. And noted that a binary outcome contain less information about the magnitude of dependence. Also suggest using GMRF because “it aggregates pieces of binary information from the neigbouring regions to better estimate spatial depencies”. However, this is true because the the spatial dependence parameter is linear in the linear predictor and there exist a nice framework proposed by <span class="citation">Besag, York, and Mollié (1991)</span> that allows for this. It is important to note that there are several debates on the interpretation of the spatial dependence paramter of a CAR or SAR model. By using GMRF models, an explicit assumption that is made is that the spatial dependence parameter reflects a situation where values observed at one region, say observation <span class="math inline">\(i\)</span>, depend on the values of neighboring observations at nearby regions. And using a GRF, we basically assume that there is a spatial continuous process that generate any observation at any region.</p>
+</div>
+<div id="methodological-framework" class="section level1">
+<h1>Methodological Framework</h1>
+<p>Let <span class="math inline">\(Y_{ijk}\)</span> be the binary outcome for an admission <span class="math inline">\(i= 1, \ldots, L\)</span> for patient <span class="math inline">\(k= 1, \ldots, N\)</span> living in region <span class="math inline">\(j= 1, \ldots, M\)</span>. A augumented probit model proposed by <span class="citation">Albert and Chib (1993)</span> usually assume that the outcome is generated through an underlying latent variable, $Z_{ijk}, with the following hierarchical structure.</p>
+<p><span class="math display">\[ Y_{ijk} = \begin{cases} 
+      1 &amp; Z_{ijk} &gt; 0 \\
+      0 &amp; Z_{ijk} \leq 0
+   \end{cases}
+\]</span></p>
+<ol class="example" style="list-style-type: decimal">
+<li><span class="math display">\[Z_{ijk} =  d_{ijk}^\top \beta + S_j + U_{k} + \epsilon_{ijk}\]</span></li>
+</ol>
+<p>with the following prior distributions</p>
+<p><span class="math display">\[\epsilon_{ijk} \sim \mathcal{N}(0, 1)\]</span></p>
+<p><span class="math display">\[\beta  \sim \mathcal{N}(\mu_\beta, \Sigma_\beta)\]</span></p>
+<p><span class="math display">\[S \sim  \mathcal{N}(0, \Sigma(\theta))\]</span></p>
+<p><span class="math display">\[Z \sim \mathcal{N}(0, \tau^2I) \]</span></p>
+<p>where <span class="math inline">\(d_{ijk}\)</span> is the vector of <span class="math inline">\(p\)</span> covariates with associated coefficient <span class="math inline">\(\beta\)</span>, <span class="math inline">\(S_j\)</span> is the region specific random effect and it is define using GRF and <span class="math inline">\(U_{k}\)</span> is an patient or individual random effect, <span class="math inline">\(\epsilon_{ijk}\)</span> is the error term.</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>can be re-written in vector form as</li>
+</ol>
+<p><span class="math display">\[Z =  D^\top \beta + \Delta_1S +  \Delta_2 U + \epsilon\]</span> where <span class="math inline">\(Z=(Z_{ijk}: i = 1, \ldots, L, j= 1, \ldots, M, k = 1, \ldots, N)&#39;\)</span>, <span class="math inline">\(S=(S_{j}: j= 1, \ldots, M)&#39;\)</span>, <span class="math inline">\(U=(U_{j}: j= 1, \ldots, U)&#39;\)</span>, <span class="math display">\[ \Delta_1 = 
+\begin{pmatrix}
+1 &amp; &amp; \\
+ &amp;\ddots &amp;\\
+ &amp;  &amp; 1
+\end{pmatrix}\]</span></p>
+<p>The joint posterior distribution of <span class="math inline">\(\beta\)</span>, <span class="math inline">\(\theta\)</span>, <span class="math inline">\(\tau^2\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(U\)</span> and <span class="math inline">\(Z\)</span> is given by,</p>
+<p>2 <span class="math display">\[ \label{eq:post} 
+ p(\beta, \theta, \tau^2, S, U, Z | Y) = \pi(\beta) \pi(\theta) \pi(\tau^2) f(S| \theta) f(U | \tau^2) f(Z | S, U, \beta, \theta, \tau^2) f(Y|Z) 
+ \]</span></p>
+<p>We use MCMC algorithm to update these parameters in turn</p>
+<ul>
+<li>Initialise <span class="math inline">\(\beta\)</span>, <span class="math inline">\(\theta\)</span>, <span class="math inline">\(\tau^2\)</span>, <span class="math inline">\(S\)</span>, <span class="math inline">\(U\)</span> and <span class="math inline">\(Z\)</span></li>
+<li>Update joint posterior of <span class="math inline">\(\theta\)</span> using random-walk Metropolis Hastings (RWMH)</li>
+<li>Update joint posterior of <span class="math inline">\(\tau\)</span> using random-walk Metropolis Hastings (RWMH)</li>
+<li>Update joint posterior of <span class="math inline">\(\beta\)</span> using a Gibbs step. The posterior distribution for <span class="math inline">\(\beta\)</span> is Gaussian since we assign a conjugate prior on <span class="math inline">\(\beta\)</span>, hence <span class="math display">\[ [\beta| \cdot] = \mathcal{N}(M_\beta, V_\beta),\]</span> where <span class="math display">\[V_\beta = (D^\top D + \Sigma_\beta^{-1})^{-1} \]</span> and <span class="math display">\[M_\beta = V_\beta (D^\top (Z- (S+U)) + \Sigma_\beta^{-1} \mu_\beta) \]</span></li>
+<li>Update joint posterior of <span class="math inline">\(S\)</span> using a Gibbs step. The posterior distribution for <span class="math inline">\(S\)</span> is Gaussian since we assign a conjugate prior on <span class="math inline">\(S\)</span>, hence <span class="math display">\[ [S| \cdot] \sim \mathcal{N}(M_S, V_S),\]</span> where <span class="math display">\[V_S = (\Delta_1^\top \Delta_1 + \Sigma_S^{-1})^{-1} \]</span> and <span class="math display">\[M_S = V_S (\Delta_1^\top (Z- (D\beta+ \Delta_2U))) \]</span></li>
+<li>Update joint posterior of <span class="math inline">\(U\)</span> using a Gibbs step. The posterior distribution for <span class="math inline">\(U\)</span> is Gaussian since we assign a conjugate prior on <span class="math inline">\(U\)</span>, hence <span class="math display">\[ [U| \cdot] \sim \mathcal{N}(M_U, V_U),\]</span> where <span class="math display">\[V_U = (\Delta_2^\top \Delta_2 + \Sigma_S^{-1})^{-1} \]</span> and <span class="math display">\[M_U = V_U (\Delta_2^\top (Z- (D\beta+ \Delta_1 S))) \]</span></li>
+<li>Update joint posterior of <span class="math inline">\(Z\)</span> using a Gibbs step. The posterior distribution for <span class="math inline">\(Z\)</span> is truncated Gaussian, hence <span class="math display">\[ [Z| \cdot] \sim  \mathcal{TN}(D\beta+ \Delta_1 S + \Delta_2 U, 1, I(Y, Z)),\]</span> where <span class="math display">\[I(Y, Z) = I(Y=1)I(Z &gt; 0) + I(Y=0)I(Z \leq 0)\]</span>.</li>
+</ul>
+</div>
+<div id="simulation-study" class="section level1">
+<h1>Simulation Study</h1>
+<div id="generating-synthetic-data" class="section level2">
+<h2>Generating synthetic data</h2>
+<pre class="r"><code>#load the required package
+library(geoR, quietly = TRUE)</code></pre>
+<pre><code>## --------------------------------------------------------------
+##  Analysis of Geostatistical Data
+##  For an Introduction to geoR go to http://www.leg.ufpr.br/geoR
+##  geoR version 1.7-5.2.1 (built on 2016-05-02) is now loaded
+## --------------------------------------------------------------</code></pre>
+<pre class="r"><code>require(Matrix, quietly = TRUE)
+#simulating my type of data
+n_add &lt;- 250
+n_pat &lt;- 150
+n_reg &lt;- 50
+adm &lt;- 1:n_add
+pat &lt;- c(1:n_pat, sample(1:n_pat, n_add-n_pat))
+reg &lt;- c(1:n_reg, sample(1:n_reg, n_add-n_reg, replace=TRUE))
+data &lt;- data.frame(adm, pat, reg)
+#####
+x &lt;- rnorm(n_add)
+# Create n x D design matrix
+D &lt;- 2
+# We learn a linear function
+X &lt;- cbind(rep(1, n_add), x)
+# True values of regression coeffiecients theta
+true_theta &lt;- c(-0.5, 0.5)
+# simulate the gaussian process
+S &lt;- grf(n=n_reg, grid = &quot;irreg&quot;, cov.pars = c(1, 0.5), xlims = c(0, 6), ylims = c(0, 6))</code></pre>
+<pre><code>## grf: simulation(s) on randomly chosen locations with  50  points
+## grf: process with  1  covariance structure(s)
+## grf: nugget effect is: tausq= 0 
+## grf: covariance model 1 is: exponential(sigmasq=1, phi=0.5)
+## grf: decomposition algorithm used is:  cholesky 
+## grf: End of simulation procedure. Number of realizations: 1</code></pre>
+<pre class="r"><code>xy &lt;- S$coords
+u &lt;- rnorm(n_pat, sd=sqrt(0.2))
+# create the mapping matrix
+inc_mat_reg &lt;-t(as(as.factor(reg),Class=&quot;sparseMatrix&quot;))
+inc_mat_pat &lt;-t(as(as.factor(pat),Class=&quot;sparseMatrix&quot;))
+# Obtain the vector with probabilities of success p using the probit link
+p &lt;- pnorm(as.numeric(X %*% true_theta + inc_mat_reg%*%cbind(S$data) + inc_mat_pat%*%cbind(u)))
+# Generate binary observation data y
+y &lt;- cbind(rbinom(n_add, 1, p))
+data &lt;- data.frame(data, x, y)
+head(data)</code></pre>
+<pre><code>##   adm pat reg          x y
+## 1   1   1   1  0.5402883 0
+## 2   2   2   2  0.1756355 0
+## 3   3   3   3  1.1559319 1
+## 4   4   4   4  0.8420048 0
+## 5   5   5   5 -0.4327365 0
+## 6   6   6   6 -0.9763709 0</code></pre>
+</div>
+<div id="fiting-a-non-spatial-model" class="section level2">
+<h2>Fiting a non spatial model</h2>
+<pre class="r"><code># fit the non-spatial model
+fit &lt;- glm(formula = y~x, family = binomial(link = &quot;probit&quot;), data=data)
+summary(fit)</code></pre>
+<pre><code>## 
+## Call:
+## glm(formula = y ~ x, family = binomial(link = &quot;probit&quot;), data = data)
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -1.3398  -0.8973  -0.7382   1.3171   2.0473  
+## 
+## Coefficients:
+##             Estimate Std. Error z value Pr(&gt;|z|)    
+## (Intercept) -0.46790    0.08364  -5.594 2.22e-08 ***
+## x            0.25979    0.08494   3.058  0.00222 ** 
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 313.43  on 249  degrees of freedom
+## Residual deviance: 303.73  on 248  degrees of freedom
+## AIC: 307.73
+## 
+## Number of Fisher Scoring iterations: 4</code></pre>
+</div>
+<div id="fiting-a-full-bayesian-spatial-probit-model-using-grf" class="section level2">
+<h2>Fiting a full bayesian spatial probit model using GRF</h2>
+<pre class="r"><code># Library for sampling from Multivariate Normal distribution
+require(mvtnorm, quietly = TRUE)
+# Library for sampling from Truncated Normal distribution
+require(truncnorm, quietly = TRUE)
+# Variables that we will need later
+N1  &lt;- sum(y)  # Number of successes
+N0  &lt;- n_add - N1  # Number of failures
+
+# Conjugate prior on the coefficients \beta ~ N(mu_beta, Sigma_beta)
+mu_beta &lt;- c(fit$coefficients)
+# Sigma_beta &lt;- diag(10, 2)
+Sigma_beta &lt;- as.matrix(vcov(fit)) * 10
+
+# Compute the distance matrix over the region
+U &lt;- as.matrix(dist(xy))
+
+# proposal covariance
+prop_Sigma &lt;- matrix(c(0.01, 0, 0, 0.01), 2)
+prop_Sigma_tau2 &lt;- 0.01
+
+# [,1]       [,2]
+# [1,] 0.14450882 0.03176559
+# [2,] 0.03176559 0.34874799
+
+# Initialize parameters
+re_para &lt;- c(1, 0.5, 0.2)
+beta &lt;- c(-0.5, 0.5)
+Sigma_s &lt;-re_para[1]*exp(-U/re_para[2])
+S &lt;- rmvnorm(n = 1, mean = rep(0, n_reg), sigma = Sigma_s)
+u &lt;- rnorm(n = n_pat, mean = 0, sd=sqrt(re_para[3]))
+mu_z &lt;- X %*% beta + inc_mat_reg%*%as.numeric(S) + inc_mat_pat%*%u
+z &lt;- rep(0, n_add)
+z[y == 0] &lt;- rtruncnorm(N0, mean = mu_z[y == 0], sd = 1, a = -Inf, b = 0)
+z[y == 1] &lt;- rtruncnorm(N1, mean = mu_z[y == 1], sd = 1, a = 0, b = Inf)
+
+
+# Number of simulations for Gibbs sampler
+N_sim &lt;- 110000
+# Burn in period
+burn_in &lt;- 10000
+# Matrix storing samples of the \beta parameter
+beta_chain &lt;- matrix(beta, nrow = N_sim, ncol = D)
+# Matrix storing samples of the latent variable, z
+z_chain &lt;- matrix(0, nrow = N_sim, ncol = n_add)
+# Matrix storing samples of the parameter of S and U, sigma^2, phi and tau^2
+re_para_chain &lt;- matrix(re_para, nrow = N_sim, ncol = 3)
+
+
+
+# ---------------------------------
+# Gibbs sampling algorithm
+# ---------------------------------
+# Compute posterior variance of beta
+prec_beta &lt;- solve(Sigma_beta)
+V &lt;- solve(prec_beta + crossprod(X, X))
+#acceptance probability
+accept1 &lt;- 0
+accept2 &lt;- 0
+for (t in 2:N_sim) {
+  
+  #  get the random effect parameters
+  sigma2 &lt;- re_para[1]
+  phi &lt;- re_para[2]
+  tau2 &lt;- re_para[3]
+  
+  # update the proposal variance
+  if (t &gt; 1000){
+    prop_Sigma &lt;- cov(log(re_para_chain[,1:2]))*((2.38)^2)/2
+    prop_Sigma_tau2 &lt;- cov(log(re_para_chain))[3,3]*((2.38)^2)
+  }
+  
+  # Simulate each of the spatial random effects parameters using metropolis-hasting
+  # the proposal
+  sigma2_phi_proposal &lt;- rmvnorm(n=1, mean=log(c(sigma2, phi)), sigma = prop_Sigma)
+  # the acceptance probability
+  alpha &lt;- exp(dmvnorm(x = as.numeric(S), mean = rep(0, n_reg), sigma=exp(sigma2_phi_proposal[1])*exp(-U/exp(sigma2_phi_proposal[2])), log = TRUE) + 
+                 dnorm(x = exp(sigma2_phi_proposal[1]), mean = 1, sd = 1.00005, log = TRUE) +  #prior of sigma2
+                 dnorm(x= exp(sigma2_phi_proposal[2]), mean = 0.5, sd = 1.00001, log = TRUE)  -  #prior of phi
+                 dmvnorm(x = as.numeric(S), mean = rep(0, n_reg), sigma= Sigma_s, log = TRUE)- 
+                 dnorm(x = sigma2, mean = 1, sd = 1.00005, log = TRUE) -
+                 dnorm(x= phi, mean = 0.5, sd = 1.00001, log = TRUE)  +
+                 log(exp(sigma2_phi_proposal[1])/sigma2) + 
+                 log(exp(sigma2_phi_proposal[2])/phi))
+  
+  if (alpha &gt; runif(1)) {
+    accept1 &lt;- accept1 + 1
+    sigma2 &lt;- exp(sigma2_phi_proposal[1])
+    phi &lt;- exp(sigma2_phi_proposal[2])
+    #cat(&quot;accept =&quot;, c(sigma2,phi), &quot;\n&quot;)
+  }
+  
+  # Simulate each of the random effects parameters using metropolis-hasting
+  # the likelihood
+  # tau2.lik &lt;- sum(dnorm(x = u, mean = rep(0, n_pat), sd= sqrt(tau2), log = TRUE))
+  # the proposal
+  tau2_proposal &lt;- rnorm(n=1, mean=log(c(tau2)), sd = sqrt(prop_Sigma_tau2))
+  # the acceptance probability
+  alpha &lt;- exp(sum(dnorm(x = u, mean = rep(0, n_pat), sd= sqrt(exp(tau2_proposal)), log = TRUE)) +  
+                 dnorm(x= exp(tau2_proposal), mean = 0.2, sd = 1.0001, log = TRUE) -
+                     sum(dnorm(x = u, mean = rep(0, n_pat), sd= sqrt(tau2), log = TRUE)) - 
+                 dnorm(x= tau2, mean = 0.2, sd = 1.0001, log = TRUE) +
+                 log(exp(tau2_proposal)/tau2)) 
+  
+  if (alpha &gt; runif(1)) {
+    accept2 &lt;- accept2 + 1
+    tau2 &lt;- exp(tau2_proposal)
+    #cat(&quot;accept =&quot;, tau2, &quot;\n&quot;)
+  }
+  
+  #######
+  # Compute posterior of S
+  Sigma_s &lt;-sigma2*exp(-U/phi)
+  # Compute mean and variance of S
+  V_s &lt;- solve(diag(table(reg)) + solve(Sigma_s))
+  mu_s &lt;- V_s%*%(crossprod(inc_mat_reg, (z-(X%*%beta + inc_mat_pat%*%u)))) 
+  S &lt;- t(rmvnorm(n = 1, mean = mu_s, sigma = as.matrix(V_s)))
+  
+  # Compute posterior of u
+  # Compute mean and variance of u
+  V_u &lt;- solve(diag(table(pat)) + diag(1/tau2, n_pat))
+  mu_u &lt;- V_u%*%(crossprod(inc_mat_pat, (z-(X%*%beta + inc_mat_reg%*%S)))) 
+  u &lt;- t(rmvnorm(n = 1, mean = mu_u, sigma = as.matrix(V_u)))
+  
+  # Compute posterior mean of beta
+  M &lt;- V %*% (prec_beta %*% mu_beta + crossprod(X, (z-(inc_mat_reg%*%as.numeric(S) + inc_mat_pat%*%u))))
+  # M &lt;- V %*% (prec_beta %*% mu_beta + crossprod(X, (z)))
+  # Draw variable \theta from its full conditional: \beta | z, X
+  beta &lt;- c(rmvnorm(1, M, as.matrix(V)))
+  
+  # Update Mean of z
+  mu_z &lt;- X %*% beta + inc_mat_reg%*%as.numeric(S) + inc_mat_pat%*%u
+  # Draw latent variable z from its full conditional: z | \theta, y, X
+  z[y == 0] &lt;- rtruncnorm(N0, mean = mu_z[y == 0], sd = 1, a = -Inf, b = 0)
+  z[y == 1] &lt;- rtruncnorm(N1, mean = mu_z[y == 1], sd = 1, a = 0, b = Inf)
+  
+  # Store the \theta draws
+  beta_chain[t, ] &lt;- beta
+  # Store the z draws
+  z_chain[t, ] &lt;- z
+  
+  # Store the covariance parameters draws
+  re_para[1] &lt;- sigma2
+  re_para[2] &lt;- phi
+  re_para[3] &lt;- tau2
+  re_para_chain[t, ] &lt;- re_para
+  #cat(&quot;iter =&quot;, t, &quot;\n&quot;)
+}
+
+post_beta &lt;- colMeans(beta_chain[-(1:burn_in), ])
+post_beta</code></pre>
+<pre><code>## [1] -0.5684900  0.3836226</code></pre>
+<pre class="r"><code>post_rf &lt;- colMeans(re_para_chain[-(1:burn_in), ])
+post_rf</code></pre>
+<pre><code>## [1] 1.4133263 1.0859733 0.3904089</code></pre>
+<div id="ploting-the-diagnostic-of-the-inference" class="section level3">
+<h3>Ploting the diagnostic of the inference</h3>
+<pre class="r"><code>#load the package
+require(ggmcmc, quietly = TRUE)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;dplyr&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<pre><code>## 
+## Attaching package: &#39;tidyr&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:Matrix&#39;:
+## 
+##     expand</code></pre>
+<pre class="r"><code>require(coda, quietly = TRUE)
+df &lt;- data.frame(beta_chain, re_para_chain)
+colnames(df) &lt;- c(&quot;beta0&quot;, &quot;beta1&quot;, &quot;sigma2&quot;, &quot;phi&quot;, &quot;tau2&quot;)
+df &lt;- df[-1,]
+df &lt;- df[-(1:(burn_in-1)),]   #burn in
+df &lt;- df[seq(1, nrow(df), 100),]  #thining
+bbb &lt;- ggs(mcmc(df))   
+# ggmcmc(bbb)
+ggs_traceplot(bbb)</code></pre>
+<p><img src="/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<pre class="r"><code>ggs_density(bbb)</code></pre>
+<p><img src="/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-2.png" width="672" /></p>
+<pre class="r"><code>ggs_autocorrelation(bbb)</code></pre>
+<p><img src="/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-3.png" width="672" /></p>
+<pre class="r"><code># compute the acceptance rate
+accept1/N_sim # for sigma2 and phi</code></pre>
+<pre><code>## [1] 0.09990909</code></pre>
+<pre class="r"><code>accept2/N_sim # for tau2</code></pre>
+<pre><code>## [1] 0.07552727</code></pre>
+</div>
+</div>
+</div>
+<div id="references" class="section level1 unnumbered">
+<h1>References</h1>
+<div id="refs" class="references">
+<div id="ref-albert1993bayesian">
+<p>Albert, James H, and Siddhartha Chib. 1993. “Bayesian Analysis of Binary and Polychotomous Response Data.” <em>Journal of the American Statistical Association</em> 88 (422). Taylor &amp; Francis Group: 669–79.</p>
+</div>
+<div id="ref-Besag1991">
+<p>Besag, Julian, Jeremy York, and Annie Mollié. 1991. “Bayesian image restoration, with two applications in spatial statistics.” <em>Annals of the Institute of Statistical Mathematics</em> 43 (1): 1–20. <a href="https://econpapers.repec.org/RePEc:spr:aistmt✌️43:y:1991:i:1:p:1-20" class="uri">https://econpapers.repec.org/RePEc:spr:aistmt✌️43:y:1991:i:1:p:1-20</a>.</p>
+</div>
+<div id="ref-brooks2011handbook">
+<p>Brooks, Steve, Andrew Gelman, Galin Jones, and Xiao-Li Meng. 2011. <em>Handbook of Markov Chain Monte Carlo</em>. CRC press.</p>
+</div>
+<div id="ref-lesage2000bayesian">
+<p>LeSage, James P. 2000. “Bayesian Estimation of Limited Dependent Variable Spatial Autoregressive Models.” <em>Geographical Analysis</em> 32 (1). Wiley Online Library: 19–35.</p>
+</div>
+<div id="ref-lesage2009introduction">
+<p>LeSage, James, and Robert Kelley Pace. 2009. <em>Introduction to Spatial Econometrics</em>. Chapman; Hall/CRC.</p>
+</div>
+<div id="ref-smith2004bayesian">
+<p>Smith, Tony E, and James P LeSage. 2004. “A Bayesian Probit Model with Spatial Dependencies.” In <em>Spatial and Spatiotemporal Econometrics</em>, 127–60. Emerald Group Publishing Limited.</p>
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/post/probit_model/probit_modelling_markdown/&amp;text=Spatial%20Probit%20Model%20Using%20Gaussian%20Random%20Field" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/post/probit_model/probit_modelling_markdown/&amp;t=Spatial%20Probit%20Model%20Using%20Gaussian%20Random%20Field" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Spatial%20Probit%20Model%20Using%20Gaussian%20Random%20Field&amp;body=/post/probit_model/probit_modelling_markdown/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/post/probit_model/probit_modelling_markdown/&amp;title=Spatial%20Probit%20Model%20Using%20Gaussian%20Random%20Field" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Spatial%20Probit%20Model%20Using%20Gaussian%20Random%20Field%20/post/probit_model/probit_modelling_markdown/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/post/probit_model/probit_modelling_markdown/&amp;title=Spatial%20Probit%20Model%20Using%20Gaussian%20Random%20Field" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+    
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/avatar_hu691d8725070dea5a83e0569aadd2ed79_146257_270x270_fill_q90_lanczos_center.JPG" alt="">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="/"></a></h5>
+        <h6 class="card-subtitle">Senior Research Associate in Geospatial Statistical Methods</h6>
+        <p class="card-text">My research interests include Geopatial Epidemiology, Disease mapping and Predictive modelling</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:olatunjijohnson21111@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/teejay21111" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=gn9CZVYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/olatunjijohnson" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.37431be2d92d7fb0160054761ab79602.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
