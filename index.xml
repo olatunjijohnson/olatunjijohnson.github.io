@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr Olatunji Johnson</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Dr Olatunji Johnson</title>
@@ -498,7 +498,7 @@ accept1/N_sim # for sigma2 and phi&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Albert, James H, and Siddhartha Chib. 1993. “Bayesian Analysis of Binary and Polychotomous Response Data.” &lt;em&gt;Journal of the American Statistical Association&lt;/em&gt; 88 (422). Taylor &amp;amp; Francis Group: 669–79.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;ref-Besag1991&#34;&gt;
-&lt;p&gt;Besag, Julian, Jeremy York, and Annie Mollié. 1991. “Bayesian image restoration, with two applications in spatial statistics.” &lt;em&gt;Annals of the Institute of Statistical Mathematics&lt;/em&gt; 43 (1): 1–20. &lt;a href=&#34;https://econpapers.repec.org/RePEc:spr:aistmt✌️43:y:1991:i:1:p:1-20&#34; class=&#34;uri&#34;&gt;https://econpapers.repec.org/RePEc:spr:aistmt✌️43:y:1991:i:1:p:1-20&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Besag, Julian, Jeremy York, and Annie Mollié. 1991. “Bayesian image restoration, with two applications in spatial statistics.” &lt;em&gt;Annals of the Institute of Statistical Mathematics&lt;/em&gt; 43 (1): 1–20. &lt;a href=&#34;https://econpapers.repec.org/RePEc:spr:aistmt✌43:y:1991:i:1:p:1-20&#34; class=&#34;uri&#34;&gt;https://econpapers.repec.org/RePEc:spr:aistmt✌43:y:1991:i:1:p:1-20&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;ref-brooks2011handbook&#34;&gt;
 &lt;p&gt;Brooks, Steve, Andrew Gelman, Galin Jones, and Xiao-Li Meng. 2011. &lt;em&gt;Handbook of Markov Chain Monte Carlo&lt;/em&gt;. CRC press.&lt;/p&gt;
@@ -737,7 +737,6 @@ Three
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;/aside&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
@@ -785,24 +784,6 @@ Three
 &lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
