@@ -5,12 +5,28 @@
     <link>/author/johnson-olatunji/</link>
       <atom:link href="/author/johnson-olatunji/index.xml" rel="self" type="application/rss+xml" />
     <description>Johnson, Olatunji</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0100</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Johnson, Olatunji</title>
       <link>/author/johnson-olatunji/</link>
     </image>
+    
+    <item>
+      <title>Model-based geostatistical methods enable efficient design and analysis of prevalence surveys for soil-transmitted helminth infection and other neglected tropical diseases</title>
+      <link>/publication/sth_design/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0100</pubDate>
+      <guid>/publication/sth_design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A modelling framework for developing early warning systems of COPD emergency admissions</title>
+      <link>/publication/copd/</link>
+      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/copd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Elimination of STH morbidity in Zimbabwe: Results of 6 years of deworming intervention for school-age children</title>
