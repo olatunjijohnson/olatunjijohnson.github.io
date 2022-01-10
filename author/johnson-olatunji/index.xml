@@ -5,12 +5,20 @@
     <link>https://olatunjijohnson.github.io/author/johnson-olatunji/</link>
       <atom:link href="https://olatunjijohnson.github.io/author/johnson-olatunji/index.xml" rel="self" type="application/rss+xml" />
     <description>Johnson, Olatunji</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Johnson, Olatunji</title>
       <link>https://olatunjijohnson.github.io/author/johnson-olatunji/</link>
     </image>
+    
+    <item>
+      <title>MBGapp: A Shiny application for teaching model-based geostatistics to population health scientists</title>
+      <link>https://olatunjijohnson.github.io/publication/mbgapp/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://olatunjijohnson.github.io/publication/mbgapp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Model-based geostatistical methods enable efficient design and analysis of prevalence surveys for soil-transmitted helminth infection and other neglected tropical diseases</title>
