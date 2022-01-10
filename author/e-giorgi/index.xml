@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>E Giorgi | Dr Olatunji Johnson</title>
-    <link>/author/e-giorgi/</link>
-      <atom:link href="/author/e-giorgi/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://olatunjijohnson.github.io/author/e-giorgi/</link>
+      <atom:link href="https://olatunjijohnson.github.io/author/e-giorgi/index.xml" rel="self" type="application/rss+xml" />
     <description>E Giorgi</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>E Giorgi</title>
-      <link>/author/e-giorgi/</link>
+      <link>https://olatunjijohnson.github.io/author/e-giorgi/</link>
     </image>
     
     <item>
       <title>Dealing with spatial misalignment to model the relationship between deprivation and life expectancy: a model-based geostatistical approach</title>
-      <link>/publication/misalignment/</link>
+      <link>https://olatunjijohnson.github.io/publication/misalignment/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/misalignment/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/misalignment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Spatially Discrete Approximation to Log-Gaussian Cox Processes for Modelling Aggregated Disease Count Data</title>
-      <link>/publication/sdalgcp/</link>
+      <link>https://olatunjijohnson.github.io/publication/sdalgcp/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/sdalgcp/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/sdalgcp/</guid>
       <description></description>
     </item>
     

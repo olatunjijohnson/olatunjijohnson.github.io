@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dr Olatunji Johnson</title>
-    <link>/author/</link>
-      <atom:link href="/author/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://olatunjijohnson.github.io/author/</link>
+      <atom:link href="https://olatunjijohnson.github.io/author/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr Olatunji Johnson</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/author/avatar_hu691d8725070dea5a83e0569aadd2ed79_146257_270x270_fill_q90_lanczos_center.JPG</url>
+      <url>https://olatunjijohnson.github.io/author/avatar_hu691d8725070dea5a83e0569aadd2ed79_146257_270x270_fill_q90_lanczos_center.JPG</url>
       <title>Dr Olatunji Johnson</title>
-      <link>/author/</link>
+      <link>https://olatunjijohnson.github.io/author/</link>
     </image>
     
   </channel>

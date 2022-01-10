@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Midzi, Nicholas | Dr Olatunji Johnson</title>
-    <link>/author/midzi-nicholas/</link>
-      <atom:link href="/author/midzi-nicholas/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://olatunjijohnson.github.io/author/midzi-nicholas/</link>
+      <atom:link href="https://olatunjijohnson.github.io/author/midzi-nicholas/index.xml" rel="self" type="application/rss+xml" />
     <description>Midzi, Nicholas</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Midzi, Nicholas</title>
-      <link>/author/midzi-nicholas/</link>
+      <link>https://olatunjijohnson.github.io/author/midzi-nicholas/</link>
     </image>
     
     <item>
       <title>Model-based geostatistical methods enable efficient design and analysis of prevalence surveys for soil-transmitted helminth infection and other neglected tropical diseases</title>
-      <link>/publication/sth_design/</link>
+      <link>https://olatunjijohnson.github.io/publication/sth_design/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0100</pubDate>
-      <guid>/publication/sth_design/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/sth_design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elimination of STH morbidity in Zimbabwe: Results of 6 years of deworming intervention for school-age children</title>
-      <link>/publication/sth_zimbabwe/</link>
+      <link>https://olatunjijohnson.github.io/publication/sth_zimbabwe/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0100</pubDate>
-      <guid>/publication/sth_zimbabwe/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/sth_zimbabwe/</guid>
       <description></description>
     </item>
     

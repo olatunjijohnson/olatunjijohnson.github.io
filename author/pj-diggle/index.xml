@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PJ Diggle | Dr Olatunji Johnson</title>
-    <link>/author/pj-diggle/</link>
-      <atom:link href="/author/pj-diggle/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://olatunjijohnson.github.io/author/pj-diggle/</link>
+      <atom:link href="https://olatunjijohnson.github.io/author/pj-diggle/index.xml" rel="self" type="application/rss+xml" />
     <description>PJ Diggle</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>PJ Diggle</title>
-      <link>/author/pj-diggle/</link>
+      <link>https://olatunjijohnson.github.io/author/pj-diggle/</link>
     </image>
     
     <item>
       <title>A Spatially Discrete Approximation to Log-Gaussian Cox Processes for Modelling Aggregated Disease Count Data</title>
-      <link>/publication/sdalgcp/</link>
+      <link>https://olatunjijohnson.github.io/publication/sdalgcp/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/sdalgcp/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/sdalgcp/</guid>
       <description></description>
     </item>
     

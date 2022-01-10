@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Dr Olatunji Johnson</title>
-    <link>/publication/</link>
-      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://olatunjijohnson.github.io/publication/</link>
+      <atom:link href="https://olatunjijohnson.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Publications</title>
-      <link>/publication/</link>
+      <link>https://olatunjijohnson.github.io/publication/</link>
     </image>
     
     <item>
       <title>Model-based geostatistical methods enable efficient design and analysis of prevalence surveys for soil-transmitted helminth infection and other neglected tropical diseases</title>
-      <link>/publication/sth_design/</link>
+      <link>https://olatunjijohnson.github.io/publication/sth_design/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0100</pubDate>
-      <guid>/publication/sth_design/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/sth_design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A modelling framework for developing early warning systems of COPD emergency admissions</title>
-      <link>/publication/copd/</link>
+      <link>https://olatunjijohnson.github.io/publication/copd/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>/publication/copd/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/copd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elimination of STH morbidity in Zimbabwe: Results of 6 years of deworming intervention for school-age children</title>
-      <link>/publication/sth_zimbabwe/</link>
+      <link>https://olatunjijohnson.github.io/publication/sth_zimbabwe/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0100</pubDate>
-      <guid>/publication/sth_zimbabwe/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/sth_zimbabwe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dealing with spatial misalignment to model the relationship between deprivation and life expectancy: a model-based geostatistical approach</title>
-      <link>/publication/misalignment/</link>
+      <link>https://olatunjijohnson.github.io/publication/misalignment/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/misalignment/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/misalignment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Spatially Discrete Approximation to Log-Gaussian Cox Processes for Modelling Aggregated Disease Count Data</title>
-      <link>/publication/sdalgcp/</link>
+      <link>https://olatunjijohnson.github.io/publication/sdalgcp/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
-      <guid>/publication/sdalgcp/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/sdalgcp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An improved Warner’s randomized response model</title>
-      <link>/publication/warner2/</link>
+      <link>https://olatunjijohnson.github.io/publication/warner2/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0100</pubDate>
-      <guid>/publication/warner2/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/warner2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A modified stratified randomized response technique</title>
-      <link>/publication/warner1/</link>
+      <link>https://olatunjijohnson.github.io/publication/warner1/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0100</pubDate>
-      <guid>/publication/warner1/</guid>
+      <guid>https://olatunjijohnson.github.io/publication/warner1/</guid>
       <description></description>
     </item>
     
