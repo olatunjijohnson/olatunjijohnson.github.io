@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amoah, Benjamin | Dr Olatunji Johnson</title>
-    <link>https://olatunjijohnson.github.io/author/amoah-benjamin/</link>
-      <atom:link href="https://olatunjijohnson.github.io/author/amoah-benjamin/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/amoah-benjamin/</link>
+      <atom:link href="/author/amoah-benjamin/index.xml" rel="self" type="application/rss+xml" />
     <description>Amoah, Benjamin</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 31 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Amoah, Benjamin</title>
-      <link>https://olatunjijohnson.github.io/author/amoah-benjamin/</link>
+      <link>/author/amoah-benjamin/</link>
     </image>
     
     <item>
       <title>MBGapp: A Shiny application for teaching model-based geostatistics to population health scientists</title>
-      <link>https://olatunjijohnson.github.io/publication/mbgapp/</link>
+      <link>/publication/mbgapp/</link>
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/mbgapp/</guid>
+      <guid>/publication/mbgapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Model-based geostatistical methods enable efficient design and analysis of prevalence surveys for soil-transmitted helminth infection and other neglected tropical diseases</title>
-      <link>https://olatunjijohnson.github.io/publication/sth_design/</link>
+      <link>/publication/sth_design/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/sth_design/</guid>
+      <guid>/publication/sth_design/</guid>
       <description></description>
     </item>
     

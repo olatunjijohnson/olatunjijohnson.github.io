@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhang, Yaobi | Dr Olatunji Johnson</title>
-    <link>https://olatunjijohnson.github.io/author/zhang-yaobi/</link>
-      <atom:link href="https://olatunjijohnson.github.io/author/zhang-yaobi/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/zhang-yaobi/</link>
+      <atom:link href="/author/zhang-yaobi/index.xml" rel="self" type="application/rss+xml" />
     <description>Zhang, Yaobi</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Zhang, Yaobi</title>
-      <link>https://olatunjijohnson.github.io/author/zhang-yaobi/</link>
+      <link>/author/zhang-yaobi/</link>
     </image>
     
     <item>
       <title>Model-based geostatistical methods enable efficient design and analysis of prevalence surveys for soil-transmitted helminth infection and other neglected tropical diseases</title>
-      <link>https://olatunjijohnson.github.io/publication/sth_design/</link>
+      <link>/publication/sth_design/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/sth_design/</guid>
+      <guid>/publication/sth_design/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>O Johnson | Dr Olatunji Johnson</title>
-    <link>https://olatunjijohnson.github.io/author/o-johnson/</link>
-      <atom:link href="https://olatunjijohnson.github.io/author/o-johnson/index.xml" rel="self" type="application/rss+xml" />
+    <link>/author/o-johnson/</link>
+      <atom:link href="/author/o-johnson/index.xml" rel="self" type="application/rss+xml" />
     <description>O Johnson</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>O Johnson</title>
-      <link>https://olatunjijohnson.github.io/author/o-johnson/</link>
+      <link>/author/o-johnson/</link>
     </image>
     
     <item>
       <title>Dealing with spatial misalignment to model the relationship between deprivation and life expectancy: a model-based geostatistical approach</title>
-      <link>https://olatunjijohnson.github.io/publication/misalignment/</link>
+      <link>/publication/misalignment/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/misalignment/</guid>
+      <guid>/publication/misalignment/</guid>
       <description></description>
     </item>
     

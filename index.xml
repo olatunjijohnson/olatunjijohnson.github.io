@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dr Olatunji Johnson</title>
-    <link>https://olatunjijohnson.github.io/</link>
-      <atom:link href="https://olatunjijohnson.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Dr Olatunji Johnson</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 08 Jul 2022 00:00:00 +0100</lastBuildDate>
     <image>
-      <url>https://olatunjijohnson.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Dr Olatunji Johnson</title>
-      <link>https://olatunjijohnson.github.io/</link>
+      <link>/</link>
     </image>
     
     <item>
       <title>Example Page 1</title>
-      <link>https://olatunjijohnson.github.io/courses/example/example1/</link>
+      <link>/courses/example/example1/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/courses/example/example1/</guid>
+      <guid>/courses/example/example1/</guid>
       <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -35,9 +35,9 @@
     
     <item>
       <title>Example Page 2</title>
-      <link>https://olatunjijohnson.github.io/courses/example/example2/</link>
+      <link>/courses/example/example2/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/courses/example/example2/</guid>
+      <guid>/courses/example/example2/</guid>
       <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
 &lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
@@ -55,59 +55,72 @@
     </item>
     
     <item>
+      <title>Supervision</title>
+      <link>/supervision/</link>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0100</pubDate>
+      <guid>/supervision/</guid>
+      <description>&lt;h2 id=&#34;prospective-phd-students&#34;&gt;Prospective PhD students&lt;/h2&gt;
+&lt;p&gt;I am currently setting up my own research group in spatial statistics and its application to problems in global health and environmental epidemiology. I will be taking on new PhD students from diverse academic backgrounds. I expected the candidate to have a strong background in statistics, computer science, mathematics, econometrics, physics, or a related discipline and most importantly, be passionate about research.&lt;/p&gt;
+&lt;p&gt;If you are interested, please do get in touch with me and send me your CV. I don&amp;rsquo;t expect you to have a clear plan about what you want to do for your PhD. I have a few projects that I can suggest for you. Please email me at olatunji dot johnson at manchester dot ac dot uk.&lt;/p&gt;
+&lt;h2 id=&#34;prospective-msc-students&#34;&gt;Prospective MSc students&lt;/h2&gt;
+&lt;p&gt;I also offer master’s projects which is usually circulated in the department. If you are interested my projects, please use the appropriate channel or get in touch with me. Please email me at olatunji dot johnson at manchester dot ac dot uk.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>MBGapp: A Shiny application for teaching model-based geostatistics to population health scientists</title>
-      <link>https://olatunjijohnson.github.io/publication/mbgapp/</link>
+      <link>/publication/mbgapp/</link>
       <pubDate>Fri, 31 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/mbgapp/</guid>
+      <guid>/publication/mbgapp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An Integrated District Mapping Strategy for Loiasis to Enable Safe Mass Treatment for Onchocerciasis in Gabon</title>
-      <link>https://olatunjijohnson.github.io/publication/onchogabon/</link>
+      <link>/publication/onchogabon/</link>
       <pubDate>Mon, 15 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/onchogabon/</guid>
+      <guid>/publication/onchogabon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Model-based geostatistical methods enable efficient design and analysis of prevalence surveys for soil-transmitted helminth infection and other neglected tropical diseases</title>
-      <link>https://olatunjijohnson.github.io/publication/sth_design/</link>
+      <link>/publication/sth_design/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/sth_design/</guid>
+      <guid>/publication/sth_design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A modelling framework for developing early warning systems of COPD emergency admissions</title>
-      <link>https://olatunjijohnson.github.io/publication/copd/</link>
+      <link>/publication/copd/</link>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/copd/</guid>
+      <guid>/publication/copd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Elimination of STH morbidity in Zimbabwe: Results of 6 years of deworming intervention for school-age children</title>
-      <link>https://olatunjijohnson.github.io/publication/sth_zimbabwe/</link>
+      <link>/publication/sth_zimbabwe/</link>
       <pubDate>Fri, 23 Oct 2020 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/sth_zimbabwe/</guid>
+      <guid>/publication/sth_zimbabwe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multiple Y Axes Plot with Plotly</title>
-      <link>https://olatunjijohnson.github.io/post/plotly/plotly/</link>
+      <link>/post/plotly/plotly/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/post/plotly/plotly/</guid>
+      <guid>/post/plotly/plotly/</guid>
       <description>
-&lt;script src=&#34;https://olatunjijohnson.github.io/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://olatunjijohnson.github.io/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://olatunjijohnson.github.io/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://olatunjijohnson.github.io/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;https://olatunjijohnson.github.io/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;https://olatunjijohnson.github.io/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
-&lt;link href=&#34;https://olatunjijohnson.github.io/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
-&lt;script src=&#34;https://olatunjijohnson.github.io/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/htmlwidgets/htmlwidgets.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/plotly-binding/plotly.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/typedarray/typedarray.min.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;/rmarkdown-libs/jquery/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/crosstalk/css/crosstalk.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/crosstalk/js/crosstalk.min.js&#34;&gt;&lt;/script&gt;
+&lt;link href=&#34;/rmarkdown-libs/plotly-htmlwidgets-css/plotly-htmlwidgets.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;/rmarkdown-libs/plotly-main/plotly-latest.min.js&#34;&gt;&lt;/script&gt;
 
 
 &lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
@@ -169,33 +182,33 @@ p&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Dealing with spatial misalignment to model the relationship between deprivation and life expectancy: a model-based geostatistical approach</title>
-      <link>https://olatunjijohnson.github.io/publication/misalignment/</link>
+      <link>/publication/misalignment/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/misalignment/</guid>
+      <guid>/publication/misalignment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistical Modelling Approaches to Disease Mapping</title>
-      <link>https://olatunjijohnson.github.io/talk/capetown/</link>
+      <link>/talk/capetown/</link>
       <pubDate>Wed, 29 Jan 2020 13:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/talk/capetown/</guid>
+      <guid>/talk/capetown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Spatially Discrete Approximation to Log-Gaussian Cox Processes for Modelling Aggregated Disease Count Data</title>
-      <link>https://olatunjijohnson.github.io/publication/sdalgcp/</link>
+      <link>/publication/sdalgcp/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/sdalgcp/</guid>
+      <guid>/publication/sdalgcp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spatial Probit Model Using Gaussian Random Field</title>
-      <link>https://olatunjijohnson.github.io/post/probit_model/probit_modelling_markdown/</link>
+      <link>/post/probit_model/probit_modelling_markdown/</link>
       <pubDate>Thu, 14 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/post/probit_model/probit_modelling_markdown/</guid>
+      <guid>/post/probit_model/probit_modelling_markdown/</guid>
       <description>
 
 
@@ -510,11 +523,11 @@ df &amp;lt;- df[seq(1, nrow(df), 100),]  #thining
 bbb &amp;lt;- ggs(mcmc(df))   
 # ggmcmc(bbb)
 ggs_traceplot(bbb)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://olatunjijohnson.github.io/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggs_density(bbb)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://olatunjijohnson.github.io/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggs_autocorrelation(bbb)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;https://olatunjijohnson.github.io/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/probit_model/probit_modelling_markdown_files/figure-html/unnamed-chunk-4-3.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# compute the acceptance rate
 accept1/N_sim # for sigma2 and phi&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 0.09990909&lt;/code&gt;&lt;/pre&gt;
@@ -551,9 +564,9 @@ accept1/N_sim # for sigma2 and phi&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Fitting Geostatistical Model Using TensorFlow API from R</title>
-      <link>https://olatunjijohnson.github.io/post/geostatisticswithtensorflow/geostatistics_mle_tf/</link>
+      <link>/post/geostatisticswithtensorflow/geostatistics_mle_tf/</link>
       <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/post/geostatisticswithtensorflow/geostatistics_mle_tf/</guid>
+      <guid>/post/geostatisticswithtensorflow/geostatistics_mle_tf/</guid>
       <description>
 
 
@@ -688,9 +701,9 @@ tf$reset_default_graph()&lt;/code&gt;&lt;/pre&gt;
     
     <item>
       <title>Slides</title>
-      <link>https://olatunjijohnson.github.io/slides/example/</link>
+      <link>/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/slides/example/</guid>
+      <guid>/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-academic&#34;&gt;Create slides in Markdown with Academic&lt;/h1&gt;
 &lt;p&gt;
 &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Academic&lt;/a&gt; | 
@@ -821,25 +834,25 @@ Three
     
     <item>
       <title>A Spatially Discrete Approximation to Log-Gaussian Cox Processes for Modelling Aggregated Disease Count Data</title>
-      <link>https://olatunjijohnson.github.io/talk/toronto/</link>
+      <link>/talk/toronto/</link>
       <pubDate>Fri, 15 Jun 2018 13:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/talk/toronto/</guid>
+      <guid>/talk/toronto/</guid>
       <description></description>
     </item>
     
     <item>
       <title>External Project</title>
-      <link>https://olatunjijohnson.github.io/project/external-project/</link>
+      <link>/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/project/external-project/</guid>
+      <guid>/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>https://olatunjijohnson.github.io/project/internal-project/</link>
+      <link>/project/internal-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://olatunjijohnson.github.io/project/internal-project/</guid>
+      <guid>/project/internal-project/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -850,17 +863,17 @@ Three
     
     <item>
       <title>An improved Warner’s randomized response model</title>
-      <link>https://olatunjijohnson.github.io/publication/warner2/</link>
+      <link>/publication/warner2/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/warner2/</guid>
+      <guid>/publication/warner2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A modified stratified randomized response technique</title>
-      <link>https://olatunjijohnson.github.io/publication/warner1/</link>
+      <link>/publication/warner1/</link>
       <pubDate>Mon, 01 Sep 2014 00:00:00 +0100</pubDate>
-      <guid>https://olatunjijohnson.github.io/publication/warner1/</guid>
+      <guid>/publication/warner1/</guid>
       <description></description>
     </item>
     

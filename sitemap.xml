@@ -3,346 +3,351 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://olatunjijohnson.github.io/courses/example/example1/</loc>
+    <loc>/courses/example/example1/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/courses/example/</loc>
+    <loc>/courses/example/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/courses/example/example2/</loc>
+    <loc>/courses/example/example2/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication-type/2/</loc>
+    <loc>/</loc>
+    <lastmod>2022-07-08T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/supervision/</loc>
+    <lastmod>2022-07-08T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/2/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/amoah-benjamin/</loc>
+    <loc>/author/amoah-benjamin/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/authors/</loc>
+    <loc>/authors/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/diggle-peter/</loc>
+    <loc>/author/diggle-peter/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/fronterre-claudio/</loc>
+    <loc>/author/fronterre-claudio/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/giorgi-emanuele/</loc>
+    <loc>/author/giorgi-emanuele/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/johnson-olatunji/</loc>
+    <loc>/author/johnson-olatunji/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/mbgapp/</loc>
+    <loc>/publication/mbgapp/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication_types/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2021-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/onchogabon/</loc>
+    <loc>/publication/onchogabon/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/julienne-atsame/</loc>
+    <loc>/author/julienne-atsame/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/katherine-gass/</loc>
+    <loc>/author/katherine-gass/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/kisito-ogoussan/</loc>
+    <loc>/author/kisito-ogoussan/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/lee-hundley/</loc>
+    <loc>/author/lee-hundley/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/marco-biamonte/</loc>
+    <loc>/author/marco-biamonte/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/olatunji-johnson/</loc>
+    <loc>/author/olatunji-johnson/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/peter-j.-diggle/</loc>
+    <loc>/author/peter-j.-diggle/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/sylvie-ntsame-ella/</loc>
+    <loc>/author/sylvie-ntsame-ella/</loc>
     <lastmod>2021-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/hodges-mary-h/</loc>
+    <loc>/author/hodges-mary-h/</loc>
     <lastmod>2021-06-14T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/kargbo-labor-ibrahim/</loc>
+    <loc>/author/kargbo-labor-ibrahim/</loc>
     <lastmod>2021-06-14T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/midzi-nicholas/</loc>
+    <loc>/author/midzi-nicholas/</loc>
     <lastmod>2021-06-14T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/sth_design/</loc>
+    <loc>/publication/sth_design/</loc>
     <lastmod>2021-06-14T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/montresor-antonio/</loc>
+    <loc>/author/montresor-antonio/</loc>
     <lastmod>2021-06-14T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/mutsaka-makuvaza-masceline-j/</loc>
+    <loc>/author/mutsaka-makuvaza-masceline-j/</loc>
     <lastmod>2021-06-14T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/mutsaka-makuvaza-masceline-jenipher/</loc>
+    <loc>/author/mutsaka-makuvaza-masceline-jenipher/</loc>
     <lastmod>2021-06-14T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/zhang-yaobi/</loc>
+    <loc>/author/zhang-yaobi/</loc>
     <lastmod>2021-06-14T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/copd/</loc>
+    <loc>/publication/copd/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/gatheral-tim/</loc>
+    <loc>/author/gatheral-tim/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/knight-jo/</loc>
+    <loc>/author/knight-jo/</loc>
     <lastmod>2021-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/diggle-peter-j/</loc>
+    <loc>/author/diggle-peter-j/</loc>
     <lastmod>2020-10-23T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/sth_zimbabwe/</loc>
+    <loc>/publication/sth_zimbabwe/</loc>
     <lastmod>2020-10-23T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/manangazira-portia/</loc>
+    <loc>/author/manangazira-portia/</loc>
     <lastmod>2020-10-23T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/mhlanga-gibson/</loc>
+    <loc>/author/mhlanga-gibson/</loc>
     <lastmod>2020-10-23T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/phiri-isaac/</loc>
+    <loc>/author/phiri-isaac/</loc>
     <lastmod>2020-10-23T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/post/plotly/plotly/</loc>
+    <loc>/post/plotly/plotly/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/misalignment/</loc>
+    <loc>/publication/misalignment/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/e-giorgi/</loc>
+    <loc>/author/e-giorgi/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/o-johnson/</loc>
+    <loc>/author/o-johnson/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/p-diggle/</loc>
+    <loc>/author/p-diggle/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/talk/capetown/</loc>
+    <loc>/talk/capetown/</loc>
     <lastmod>2020-01-29T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/sdalgcp/</loc>
+    <loc>/publication/sdalgcp/</loc>
     <lastmod>2019-07-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/oo-johnson/</loc>
+    <loc>/author/oo-johnson/</loc>
     <lastmod>2019-07-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/pj-diggle/</loc>
+    <loc>/author/pj-diggle/</loc>
     <lastmod>2019-07-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/post/probit_model/probit_modelling_markdown/</loc>
+    <loc>/post/probit_model/probit_modelling_markdown/</loc>
     <lastmod>2019-03-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/post/geostatisticswithtensorflow/geostatistics_mle_tf/</loc>
+    <loc>/post/geostatisticswithtensorflow/geostatistics_mle_tf/</loc>
     <lastmod>2019-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/slides/</loc>
+    <loc>/slides/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/slides/example/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/talk/toronto/</loc>
+    <loc>/talk/toronto/</loc>
     <lastmod>2018-06-15T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/tag/deep-learning/</loc>
+    <loc>/tag/deep-learning/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/tag/demo/</loc>
+    <loc>/tag/demo/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/project/external-project/</loc>
+    <loc>/project/external-project/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/project/internal-project/</loc>
+    <loc>/project/internal-project/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/warner2/</loc>
+    <loc>/publication/warner2/</loc>
     <lastmod>2015-09-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/fb-adebola/</loc>
+    <loc>/author/fb-adebola/</loc>
     <lastmod>2015-09-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/warner1/</loc>
+    <loc>/publication/warner1/</loc>
     <lastmod>2014-09-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/na-adegoke/</loc>
+    <loc>/author/na-adegoke/</loc>
     <lastmod>2014-09-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/</loc>
+    <loc>/author/</loc>
     <lastmod>2020-04-16T23:48:38+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/courses/</loc>
+    <loc>/courses/</loc>
     <lastmod>2020-05-01T18:26:10+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/</loc>
-    <lastmod>2019-03-17T20:39:18+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://olatunjijohnson.github.io/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/publication/</loc>
+    <loc>/publication/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/talk/</loc>
+    <loc>/talk/</loc>
     <lastmod>2019-05-06T17:54:11+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://olatunjijohnson.github.io/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
+    <loc>/author/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
   </url>
   
 </urlset>
