@@ -1,0 +1,32 @@
+{
+  "posts/index.qmd": {
+    "index.html": "869d6096"
+  },
+  "about.qmd": {
+    "about.html": "80105dc8"
+  },
+  "publications/index.qmd": {
+    "index.html": "8973aa09"
+  },
+  "index.qmd": {
+    "index.html": "716eafa7"
+  },
+  "publications/2021-mbgapp-plosone.qmd": {
+    "2021-mbgapp-plosone.html": "f8185483"
+  },
+  "publications/2021-sth-survey-design-cid.qmd": {
+    "2021-sth-survey-design-cid.html": "aa7a7bd4"
+  },
+  "publications/2019-10-30-lgcp-discrete-approx.qmd": {
+    "2019-10-30-lgcp-discrete-approx.html": "cc3e835f"
+  },
+  "publications/2022-02-09-loa-loa-mda-safety.qmd": {
+    "2022-02-09-loa-loa-mda-safety.html": "5f1c4677"
+  },
+  "publications/2022-12-06-anc-inequities-east-africa.qmd": {
+    "2022-12-06-anc-inequities-east-africa.html": "b46611a8"
+  },
+  "publications/2025-03-21-malawi-sarscov2.qmd": {
+    "2025-03-21-malawi-sarscov2.html": "a3410a4d"
+  }
+}

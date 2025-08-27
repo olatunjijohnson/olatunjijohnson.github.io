@@ -1,0 +1,15 @@
+---
+title: "A spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data"
+subtitle: "Statistics in Medicine 38(24):4871–4887 (2019)"
+date: 2019-10-30
+doi: 10.1002/sim.8339
+authors:
+  - Olatunji Johnson
+  - Peter J. Diggle
+  - Emanuele Giorgi
+categories: ["Journal article", "Most Cited"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.1002/sim.8339) · [Preprint](https://ar5iv.labs.arxiv.org/html/1901.09551)
+
+**Summary.** Introduces an efficient discrete approximation to LGCPs for aggregated count data, enabling continuous-space prediction (implemented in **SDALGCP**).

@@ -1,0 +1,17 @@
+---
+title: "Geostatistical modelling enables efficient safety assessment for mass drug administration with ivermectin in *Loa loa* endemic areas through a combined antibody and LoaScope testing strategy for elimination of onchocerciasis"
+subtitle: "PLOS Neglected Tropical Diseases 16(2):e0010189 (2022)"
+date: 2022-02-09
+doi: 10.1371/journal.pntd.0010189
+authors:
+  - Olatunji Johnson
+  - Emanuele Giorgi
+  - Claudio Fronterrè
+  - Benjamin Amoah
+  - et al.
+categories: ["Journal article"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.1371/journal.pntd.0010189) · [Open Access (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC8863288/)
+
+**Summary.** Two-stage strategy (antibody screening → targeted LoaScope) with a multivariate geostatistical model to classify areas as safe/unsafe for ivermectin MDA.

@@ -1,0 +1,15 @@
+---
+title: "A spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data"
+date: 2019-10-30
+journal: "Statistics in Medicine"
+doi: "10.1002/sim.8339"
+citation: "Johnson O, Diggle P, Giorgi E. (2019) A spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data. Statistics in Medicine 38(24):4871–4887. https://doi.org/10.1002/sim.8339"
+links:
+  - text: "Publisher"
+    href: "https://doi.org/10.1002/sim.8339"
+  - text: "Open access preprint (arXiv)"
+    href: "https://ar5iv.labs.arxiv.org/html/1901.09551"
+categories: ["Journal article", "Most cited"]
+---
+
+Introduces an efficient discrete approximation to LGCPs that supports spatially continuous prediction from aggregated data; implemented in the R package **SDALGCP**.

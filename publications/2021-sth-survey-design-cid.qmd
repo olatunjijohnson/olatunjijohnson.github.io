@@ -1,0 +1,27 @@
+---
+title: "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases"
+subtitle: "Clinical Infectious Diseases 72(Suppl 3):S172–S179"
+date: 2021-06-14
+doi: 10.1093/cid/ciab192
+categories: ["Most Cited"]
+keywords: ["Survey design", "Soil-transmitted helminths", "WHO guidelines", "Impact surveys"]
+links:
+  - icon: box-arrow-up-right
+    text: Publisher
+    href: https://doi.org/10.1093/cid/ciab192
+  - icon: file-earmark-pdf
+    text: Free PMC
+    href: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8201574/pdf/   # full text
+format:
+  html:
+    toc: true
+---
+
+**Authors:** **Olatunji Johnson**; Claudio Fronterre; Benjamin Amoah; Antonio Montresor; Emanuele Giorgi; Nicholas Midzi; Masceline J. Mutsaka-Makuvaza; Ibrahim Kargbo-Labor; Mary H. Hodges; Yaobi Zhang; Collins Okoyo; Charles Mwandawiro; Mark Minnery; Peter J. Diggle  
+**Journal:** *Clinical Infectious Diseases*, 72(Suppl 3):S172–S179 (2021)
+
+## Summary
+Shows how **MBG-based survey design and analysis** can **outperform WHO guideline methods**, using STH surveys in **Kenya, Sierra Leone, and Zimbabwe**—achieving improved precision with **less field effort**.
+
+## Citation
+Johnson O, Fronterre C, Amoah B, et al. (2021). *Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys…* *Clin Infect Dis*, 72(Suppl 3):S172–S179. https://doi.org/10.1093/cid/ciab192

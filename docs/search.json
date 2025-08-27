@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Epidemiological and phylogenetic analyses of public SARS-CoV-2 data from Malawi\n\n\nPLOS Global Public Health (2025)\n\n\n\n\n\n\n\n\nMar 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial variation and inequities in antenatal care coverage in Kenya, Uganda and mainland Tanzania using model-based geostatistics: a socioeconomic and geographical accessibility lens\n\n\nBMC Pregnancy and Childbirth 22:908 (2022)\n\n\n\n\n\n\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nGeostatistical modelling enables efficient safety assessment for mass drug administration with ivermectin in Loa loa endemic areas through a combined antibody and LoaScope testing strategy for elimination of onchocerciasis\n\n\nPLOS Neglected Tropical Diseases 16(2):e0010189 (2022)\n\n\n\n\n\n\n\n\nFeb 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nMBGapp: A Shiny application for teaching model-based geostatistics to population health scientists\n\n\nPLOS ONE 16(12):e0262145\n\n\n\n\n\n\n\n\nDec 31, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nModel-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases\n\n\nClinical Infectious Diseases 72(Suppl 3):S172–S179\n\n\n\n\n\n\n\n\nJun 14, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nA spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data\n\n\nStatistics in Medicine 38(24):4871–4887 (2019)\n\n\n\n\n\n\n\n\nOct 30, 2019\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications/2022-12-06-anc-inequities-east-africa.html",
+    "href": "publications/2022-12-06-anc-inequities-east-africa.html",
+    "title": "Spatial variation and inequities in antenatal care coverage in Kenya, Uganda and mainland Tanzania using model-based geostatistics: a socioeconomic and geographical accessibility lens",
+    "section": "",
+    "text": "Links: Publisher (DOI) · Open Access PDF\nSummary. 3×3-km MBG maps reveal ANC4+ inequities across wealth, education and travel-time strata in Kenya, Uganda and mainland Tanzania."
+  },
+  {
+    "objectID": "publications/2021-sth-survey-design-cid.html",
+    "href": "publications/2021-sth-survey-design-cid.html",
+    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
+    "section": "",
+    "text": "Authors: Olatunji Johnson; Claudio Fronterre; Benjamin Amoah; Antonio Montresor; Emanuele Giorgi; Nicholas Midzi; Masceline J. Mutsaka-Makuvaza; Ibrahim Kargbo-Labor; Mary H. Hodges; Yaobi Zhang; Collins Okoyo; Charles Mwandawiro; Mark Minnery; Peter J. Diggle\nJournal: Clinical Infectious Diseases, 72(Suppl 3):S172–S179 (2021)"
+  },
+  {
+    "objectID": "publications/2021-sth-survey-design-cid.html#summary",
+    "href": "publications/2021-sth-survey-design-cid.html#summary",
+    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
+    "section": "Summary",
+    "text": "Summary\nShows how MBG-based survey design and analysis can outperform WHO guideline methods, using STH surveys in Kenya, Sierra Leone, and Zimbabwe—achieving improved precision with less field effort."
+  },
+  {
+    "objectID": "publications/2021-sth-survey-design-cid.html#citation",
+    "href": "publications/2021-sth-survey-design-cid.html#citation",
+    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
+    "section": "Citation",
+    "text": "Citation\nJohnson O, Fronterre C, Amoah B, et al. (2021). Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys… Clin Infect Dis, 72(Suppl 3):S172–S179. https://doi.org/10.1093/cid/ciab192"
+  },
+  {
+    "objectID": "publications/2019-10-30-lgcp-discrete-approx.html",
+    "href": "publications/2019-10-30-lgcp-discrete-approx.html",
+    "title": "A spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data",
+    "section": "",
+    "text": "Links: Publisher (DOI) · Preprint\nSummary. Introduces an efficient discrete approximation to LGCPs for aggregated count data, enabling continuous-space prediction (implemented in SDALGCP)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About me",
+    "section": "",
+    "text": "Lecturer in Statistics in the Department of Mathematics at The University of Manchester\nFormer post-doctoral researcher and PhD student at CHICAS, Lancaster Medical School, Lancaster University (UK).\nPhD supervisors: Prof. Peter Diggle, Prof. Emanuele Giorgi, Prof. Jo Knight.\nMy research develops novel geospatial statistical methodology for analyzing epidemiological data, with current work on Neglected Tropical Diseases (NTDs) in low-resource settings. I’m also the author of the SDALGCP R package.\nDownload CV View Publications Email"
+  },
+  {
+    "objectID": "index.html#research-areas",
+    "href": "index.html#research-areas",
+    "title": "About me",
+    "section": "Research areas",
+    "text": "Research areas\n\nMethods: Model-based geostatistics, non-stationary Gaussian processes, spatio-temporal inference, uncertainty quantification\n\nApplications: NTDs, vaccination coverage, decision support (risk maps & exceedance probabilities)\n\nSoftware: Reproducible tools & teaching apps in R/Python (MBG workflows, visualization)"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "About me",
+    "section": "Contact",
+    "text": "Contact\nEmail: olatunjijohnson21111@gmail.com\nGoogle Scholar: https://scholar.google.com/citations?user=gn9CZVYAAAAJ&hl=en\nGitHub: https://github.com/olatunjijohnson"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "publications/2021-mbgapp-plosone.html",
+    "href": "publications/2021-mbgapp-plosone.html",
+    "title": "MBGapp: A Shiny application for teaching model-based geostatistics to population health scientists",
+    "section": "",
+    "text": "Authors: Olatunji Johnson; Claudio Fronterre; Peter J. Diggle; Benjamin Amoah; Emanuele Giorgi\nJournal: PLOS ONE, 16(12):e0262145 (2021)"
+  },
+  {
+    "objectID": "publications/2021-mbgapp-plosone.html#summary",
+    "href": "publications/2021-mbgapp-plosone.html#summary",
+    "title": "MBGapp: A Shiny application for teaching model-based geostatistics to population health scientists",
+    "section": "Summary",
+    "text": "Summary\nIntroduces MBGapp, an R/Shiny tool that walks learners through the full MBG workflow (exploration → variogram → model fitting → prediction) using a Loa loa case study, plus a companion VariagramApp for teaching Gaussian processes."
+  },
+  {
+    "objectID": "publications/2021-mbgapp-plosone.html#citation",
+    "href": "publications/2021-mbgapp-plosone.html#citation",
+    "title": "MBGapp: A Shiny application for teaching model-based geostatistics to population health scientists",
+    "section": "Citation",
+    "text": "Citation\nJohnson O, Fronterre C, Diggle PJ, Amoah B, Giorgi E (2021). MBGapp… PLOS ONE, 16(12):e0262145. https://doi.org/10.1371/journal.pone.0262145"
+  },
+  {
+    "objectID": "publications/2022-02-09-loa-loa-mda-safety.html",
+    "href": "publications/2022-02-09-loa-loa-mda-safety.html",
+    "title": "Geostatistical modelling enables efficient safety assessment for mass drug administration with ivermectin in Loa loa endemic areas through a combined antibody and LoaScope testing strategy for elimination of onchocerciasis",
+    "section": "",
+    "text": "Links: Publisher (DOI) · Open Access (PMC)\nSummary. Two-stage strategy (antibody screening → targeted LoaScope) with a multivariate geostatistical model to classify areas as safe/unsafe for ivermectin MDA."
+  },
+  {
+    "objectID": "publications/2025-03-21-malawi-sarscov2.html",
+    "href": "publications/2025-03-21-malawi-sarscov2.html",
+    "title": "Epidemiological and phylogenetic analyses of public SARS-CoV-2 data from Malawi",
+    "section": "",
+    "text": "Links: Publisher (DOI)\nSummary. Integrates epidemiology and phylogenetics to describe five COVID-19 waves in Malawi (2020–2022), highlighting variant dynamics and geographic heterogeneity."
+  }
+]

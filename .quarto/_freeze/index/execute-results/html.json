@@ -1,0 +1,12 @@
+{
+  "hash": "5ccf3aa6df0cd727faac5b83e3b225ec",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Home\"\ntitle-block-banner: true\ndescription: \"Spatial statistician — Bayesian spatio-temporal modelling, disease mapping, ML + geostatistics.\"\n---\n\n\n\n\n# Olatunji Johnson\n\n![](images/profile.jpg){.rounded-circle width=\"160\"}\n\nSpatial statistician focused on **Bayesian spatio-temporal modelling**, **disease mapping**, and **ML + geostatistics** for global health.\n\n[Download CV](files/cv.pdf){.btn .btn-primary} [View Publications](/publications/){.btn .btn-outline-secondary} [Email](mailto:olatunjijohnson21111@gmail.com){.btn .btn-outline-secondary}\n\n------------------------------------------------------------------------\n\n## What I work on\n\n-   **Methods:** Model-based geostatistics, non-stationary GPs, spatio-temporal inference, uncertainty quantification.\\\n-   **Applications:** NTDs, vaccination coverage, epidemiological decision-support (risk maps & exceedance).\\\n-   **Software:** Reproducible tools & teaching apps in R/Python (e.g., MBG workflows, visualization).\n\n------------------------------------------------------------------------\n\n## Recent publications\n\n\n\n\n```{listing}\ncontents: /publications\nsort: \"date desc\"\nmax-items: 4\ntype: default\n```\n\n\n\n\n## Contact\n\n**Email:** olatunjijohnson21111\\@gmail.com\n\n**Google Scholar:** <https://scholar.google.com/citations?user=gn9CZVYAAAAJ&hl=en>\n\n**GitHub:** <https://github.com/olatunjijohnson>\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

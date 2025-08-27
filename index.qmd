@@ -1,0 +1,41 @@
+---
+title: "About me"
+toc: false
+# No title-block banner = compact header; avoids the oversized hero
+---
+
+::::: columns
+::: {.column width="65%"}
+# Dr Olatunji Johnson
+
+Lecturer in Statistics in the Department of Mathematics at [**The University of Manchester**](https://www.manchester.ac.uk/)\
+Former post-doctoral researcher and PhD student at **CHICAS**, Lancaster Medical School, **Lancaster University** (UK).\
+PhD supervisors: **Prof. Peter Diggle**, **Prof. Emanuele Giorgi**, **Prof. Jo Knight**.
+
+My research develops novel geospatial statistical methodology for analyzing epidemiological data, with current work on Neglected Tropical Diseases (NTDs) in low-resource settings. I’m also the author of the SDALGCP R package.
+
+[Download CV](files/cv.pdf){.btn .btn-primary .me-2} [View Publications](/publications/){.btn .btn-outline-secondary .me-2} [Email](mailto:olatunjijohnson21111@gmail.com){.btn .btn-outline-secondary}
+:::
+
+::: {.column width="35%"}
+![](images/profile.jpg){.rounded-circle width="220" fig-align="center" style="box-shadow:0 8px 24px rgba(0,0,0,.12);"}
+:::
+:::::
+
+------------------------------------------------------------------------
+
+## Research areas
+
+-   **Methods:** Model-based geostatistics, non-stationary Gaussian processes, spatio-temporal inference, uncertainty quantification\
+-   **Applications:** NTDs, vaccination coverage, decision support (risk maps & exceedance probabilities)\
+-   **Software:** Reproducible tools & teaching apps in R/Python (MBG workflows, visualization)
+
+------------------------------------------------------------------------
+
+## Contact
+
+**Email:** olatunjijohnson21111\@gmail.com
+
+**Google Scholar:** <https://scholar.google.com/citations?user=gn9CZVYAAAAJ&hl=en>
+
+**GitHub:** <https://github.com/olatunjijohnson>

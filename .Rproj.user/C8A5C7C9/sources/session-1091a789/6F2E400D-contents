@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - publications/**/*.qmd
+  resources:
+    - files/**
+    - images/**
+
+website:
+  title: "Dr Olatunji Johnson"
+  site-url: https://olatunjijohnson.github.io
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications/index.qmd
+      - text: CV
+        href: files/cv.pdf
+    right:
+      - icon: mortarboard
+        aria-label: Google Scholar
+        href: https://scholar.google.com/citations?user=gn9CZVYAAAAJ&hl=en
+      - icon: github
+        aria-label: GitHub
+        href: https://github.com/olatunjijohnson
+      - icon: envelope
+        aria-label: Email
+        href: mailto:olatunjijohnson21111@gmail.com
+  search:
+    location: navbar
+    type: overlay
+  page-footer:
+    left: "© {date:YYYY} Olatunji Johnson"
+
+format:
+  html:
+    theme: cosmo          # keep it simple + readable
+    css: styles.css       # your purple/white tweaks (plain CSS)
+    toc: false
+    smooth-scroll: true

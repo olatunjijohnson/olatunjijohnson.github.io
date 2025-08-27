@@ -1,0 +1,27 @@
+---
+title: "MBGapp: A Shiny application for teaching model-based geostatistics to population health scientists"
+subtitle: "PLOS ONE 16(12):e0262145"
+date: 2021-12-31
+doi: 10.1371/journal.pone.0262145
+categories: ["Recent"]
+keywords: ["Teaching", "R Shiny", "Loa loa", "Monte Carlo", "Geostatistics"]
+links:
+  - icon: box-arrow-up-right
+    text: Publisher
+    href: https://doi.org/10.1371/journal.pone.0262145
+  - icon: file-earmark-pdf
+    text: Free PMC
+    href: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8719748/pdf/   # full text
+format:
+  html:
+    toc: true
+---
+
+**Authors:** **Olatunji Johnson**; Claudio Fronterre; Peter J. Diggle; Benjamin Amoah; Emanuele Giorgi  
+**Journal:** *PLOS ONE*, 16(12):e0262145 (2021)
+
+## Summary
+Introduces **MBGapp**, an R/Shiny tool that walks learners through the full MBG workflow (exploration → variogram → model fitting → prediction) using a **Loa loa** case study, plus a companion **VariagramApp** for teaching Gaussian processes.
+
+## Citation
+Johnson O, Fronterre C, Diggle PJ, Amoah B, Giorgi E (2021). *MBGapp…* *PLOS ONE*, 16(12):e0262145. https://doi.org/10.1371/journal.pone.0262145
