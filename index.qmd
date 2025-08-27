@@ -8,11 +8,10 @@ toc: false
 ::: {.column width="65%"}
 # Dr Olatunji Johnson
 
-Lecturer in Statistics in the Department of Mathematics at [**The University of Manchester**](https://www.manchester.ac.uk/)\
-Former post-doctoral researcher and PhD student at **CHICAS**, Lancaster Medical School, **Lancaster University** (UK).\
-PhD supervisors: **Prof. Peter Diggle**, **Prof. Emanuele Giorgi**, **Prof. Jo Knight**.
+I'm a Lecturer in Statistics in the Department of Mathematics at [**The University of Manchester**](https://www.manchester.ac.uk/)**.** I was formerly a post-doctoral researcher and PhD student at **CHICAS**, Lancaster Medical School, **Lancaster University** (UK). My PhD was supervised by **Prof. Peter Diggle**, **Prof. Emanuele Giorgi** and **Prof. Jo Knight**.
 
-My research develops novel geospatial statistical methodology for analyzing epidemiological data, with current work on Neglected Tropical Diseases (NTDs) in low-resource settings. I’m also the author of the SDALGCP R package.
+My research develops novel Model-based Geostatistical (MBG) methods to provide valuable answers to many global public health questions and support informed decision-making in low-resource settings. I have worked and currently working on
+several global public health problems including COPD, malaria and neglected tropical diseases (NTDs) such as river blindness, soil-transmitted helminths, schistosomiasis, Trachoma, Loiasis.
 
 [Download CV](files/cv.pdf){.btn .btn-primary .me-2} [View Publications](/publications/){.btn .btn-outline-secondary .me-2} [Email](mailto:olatunjijohnson21111@gmail.com){.btn .btn-outline-secondary}
 :::
