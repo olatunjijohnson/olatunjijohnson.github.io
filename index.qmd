@@ -23,14 +23,6 @@ several global public health problems including COPD, malaria and neglected trop
 
 ------------------------------------------------------------------------
 
-## Research areas
-
--   **Methods:** Model-based geostatistics, non-stationary Gaussian processes, spatio-temporal inference, uncertainty quantification\
--   **Applications:** NTDs, vaccination coverage, decision support (risk maps & exceedance probabilities)\
--   **Software:** Reproducible tools & teaching apps in R/Python (MBG workflows, visualization)
-
-------------------------------------------------------------------------
-
 ## Contact
 
 **Email:** olatunji.johnson AAATTT manchester.ac.uk

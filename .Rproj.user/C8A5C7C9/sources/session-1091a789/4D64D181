@@ -1,12 +1,12 @@
 {
-    "id": "64916CB1",
-    "path": "~/Documents/Manchester Job/Admin/Webpage/my_web/index.qmd",
-    "project_path": "index.qmd",
+    "id": "4D64D181",
+    "path": "~/Documents/Manchester Job/Admin/Webpage/my_web/about.qmd",
+    "project_path": "about.qmd",
     "type": "quarto_markdown",
-    "hash": "991982617",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1756259178866.0,
+    "created": 1756419710582.0,
     "source_on_save": false,
     "relative_order": 3,
     "properties": {
@@ -16,16 +16,14 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "968:698",
-        "cursorPosition": "0,0",
-        "scrollLine": "0"
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1756420958,
+    "lastKnownWriteTime": 1756256663,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1756420958677,
+    "last_content_update": 1756256663,
     "read_only": false,
     "read_only_alternatives": []
 }

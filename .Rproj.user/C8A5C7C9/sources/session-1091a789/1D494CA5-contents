@@ -1,0 +1,41 @@
+---
+title: "Teaching"
+description: "Modules, teaching activities, and academic service."
+toc: true
+---
+
+I aim to connect **statistical theory** to **real decision-making** in my teaching.
+
+# Modules at The University of Manchester
+
+- **MATH4/68011 – Longitudinal and Spatial Data Analysis** (2025–present)  
+- **MATH4/68011 – Longitudinal Data Analysis** (2023–2025)  
+- **MATH4/68011 – Linear Models and Nonparametric Regression** (2021–2023)  
+- **MATH4/68181 – Extreme Values and Financial Risks** (2022/23)  
+
+---
+
+# Workshops & training
+
+- Model-based geostatistics for global public health data (Indonesia, 2025)
+- Inferential Methods for Random Effects Models (AIMS Rwanda, 2024)
+- Disease mapping tutorials in R (various workshops incl. UCT, South Africa, 2020)
+- Model-based geostatistics for spatially aggregated disease data (FUTA, Nigeria, 2019)  
+
+---
+
+# Academic service & leadership
+
+- **PGR Director (Probability & Statistics)**, Dept. of Mathematics, UoM (07/2023–07/2025)  
+- **Departmental Promotions Committee** member (2022–2024)  
+- **Statistics seminar organiser** (2021–2023)
+
+---
+
+# Teaching resources
+
+- **MBGapp** (R/Shiny) — interactive tool for model-based geostatistics:  
+  - App: <https://olatunjijohnson.shinyapps.io/mbgapp/>  
+  - Package: <https://rdrr.io/github/olatunjijohnson/MBGapp/>  
+
+If you’re a student looking for supervision in **spatial statistics / epidemiology**, feel free to get in touch.

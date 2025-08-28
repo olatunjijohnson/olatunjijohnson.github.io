@@ -1,0 +1,47 @@
+---
+title: "Research"
+description: "Geospatial statistics for epidemiology, methods and applications."
+toc: true
+---
+
+# Research interests
+
+My research interests lie in the interface of statistics, epidemiology and health informatics with a particular interest in spatial statistics, public health and environmental epidemiology. I am interested in developing novel model-based geostatistical methods for tropical disease mapping.
+
+My methodological themes include spatial and spatio-temporal statistics; joint modelling of multiple outcomes; geostatistical methods for spatial misalignment and Machine Learning.
+
+My application themes include real-time health surveillance; tropical disease mapping; environmental epidemiology.
+
+---
+
+# PhD Opportunities 
+
+I am looking for PhD students to work on the following topics:
+
+1. Modelling clustering geo-referenced data via mixtures.
+
+2. Inference for multivariate spatio-temporal models.
+
+3. Hybrid geostatistical and machine learning approaches for analysing spatial data.
+
+4. Modelling spatially misaligned data.
+
+---
+
+# Current projects
+
+- **Climate and Health** — Causal Inference methods for estimating the indirect effect of climate change on health.
+- **Hybrid Machine learning and Geostatistical models** — Investigating how best to combine these approaches.
+- **COVID-19** - Developing spatio-temporal models and mathematical models for COVID-19.
+
+---
+
+# Software
+
+- **SDALGCP** — R package for spatial / spatio-temporal analysis of **aggregated disease data** (CRAN)  
+  <https://cran.r-project.org/web/packages/SDALGCP/>  
+- **MBGapp** — teaching app for model-based geostatistics (Shiny + R package)  
+  App: <https://olatunjijohnson.shinyapps.io/mbgapp/> · Package: <https://rdrr.io/github/olatunjijohnson/MBGapp/>
+
+---
+

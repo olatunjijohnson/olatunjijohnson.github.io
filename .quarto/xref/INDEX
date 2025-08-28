@@ -28,5 +28,11 @@
   },
   "publications/2025-03-21-malawi-sarscov2.qmd": {
     "2025-03-21-malawi-sarscov2.html": "a3410a4d"
+  },
+  "research.qmd": {
+    "research.html": "05dd1126"
+  },
+  "teaching.qmd": {
+    "teaching.html": "7ee4582a"
   }
 }

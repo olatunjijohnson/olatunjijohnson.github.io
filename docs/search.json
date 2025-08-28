@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I aim to connect statistical theory to real decision-making in my teaching.\n\nModules at The University of Manchester\n\nMATH4/68011 – Longitudinal and Spatial Data Analysis (2025–present)\n\nMATH4/68011 – Longitudinal Data Analysis (2023–2025)\n\nMATH4/68011 – Linear Models and Nonparametric Regression (2021–2023)\n\nMATH4/68181 – Extreme Values and Financial Risks (2022/23)\n\n\n\n\nWorkshops & training\n\nModel-based geostatistics for global public health data (Indonesia, 2025)\nInferential Methods for Random Effects Models (AIMS Rwanda, 2024)\nDisease mapping tutorials in R (various workshops incl. UCT, South Africa, 2020)\nModel-based geostatistics for spatially aggregated disease data (FUTA, Nigeria, 2019)\n\n\n\n\nAcademic service & leadership\n\nPGR Director (Probability & Statistics), Dept. of Mathematics, UoM (07/2023–07/2025)\n\nDepartmental Promotions Committee member (2022–2024)\n\nStatistics seminar organiser (2021–2023)\n\n\n\n\nTeaching resources\n\nMBGapp (R/Shiny) — interactive tool for model-based geostatistics:\n\nApp: https://olatunjijohnson.shinyapps.io/mbgapp/\n\nPackage: https://rdrr.io/github/olatunjijohnson/MBGapp/\n\n\nIf you’re a student looking for supervision in spatial statistics / epidemiology, feel free to get in touch."
+  },
+  {
     "objectID": "publications/index.html",
     "href": "publications/index.html",
     "title": "Publications",
@@ -47,13 +54,6 @@
     "title": "About me",
     "section": "",
     "text": "I’m a Lecturer in Statistics in the Department of Mathematics at The University of Manchester. I was formerly a post-doctoral researcher and PhD student at CHICAS, Lancaster Medical School, Lancaster University (UK). My PhD was supervised by Prof. Peter Diggle, Prof. Emanuele Giorgi and Prof. Jo Knight.\nMy research develops novel Model-based Geostatistical (MBG) methods to provide valuable answers to many global public health questions and support informed decision-making in low-resource settings. I have worked and currently working on several global public health problems including COPD, malaria and neglected tropical diseases (NTDs) such as river blindness, soil-transmitted helminths, schistosomiasis, Trachoma, Loiasis.\nDownload CV View Publications Email"
-  },
-  {
-    "objectID": "index.html#research-areas",
-    "href": "index.html#research-areas",
-    "title": "About me",
-    "section": "Research areas",
-    "text": "Research areas\n\nMethods: Model-based geostatistics, non-stationary Gaussian processes, spatio-temporal inference, uncertainty quantification\n\nApplications: NTDs, vaccination coverage, decision support (risk maps & exceedance probabilities)\n\nSoftware: Reproducible tools & teaching apps in R/Python (MBG workflows, visualization)"
   },
   {
     "objectID": "index.html#contact",
@@ -110,5 +110,12 @@
     "title": "Epidemiological and phylogenetic analyses of public SARS-CoV-2 data from Malawi",
     "section": "",
     "text": "Links: Publisher (DOI)\nSummary. Integrates epidemiology and phylogenetics to describe five COVID-19 waves in Malawi (2020–2022), highlighting variant dynamics and geographic heterogeneity."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Research interests\nMy research interests lie in the interface of statistics, epidemiology and health informatics with a particular interest in spatial statistics, public health and environmental epidemiology. I am interested in developing novel model-based geostatistical methods for tropical disease mapping.\nMy methodological themes include spatial and spatio-temporal statistics; joint modelling of multiple outcomes; geostatistical methods for spatial misalignment and Machine Learning.\nMy application themes include real-time health surveillance; tropical disease mapping; environmental epidemiology.\n\n\n\nPhD Opportunities\nI am looking for PhD students to work on the following topics:\n\nModelling clustering geo-referenced data via mixtures.\nInference for multivariate spatio-temporal models.\nHybrid geostatistical and machine learning approaches for analysing spatial data.\nModelling spatially misaligned data.\n\n\n\n\nCurrent projects\n\nClimate and Health — Causal Inference methods for estimating the indirect effect of climate change on health.\nHybrid Machine learning and Geostatistical models — Investigating how best to combine these approaches.\nCOVID-19 - Developing spatio-temporal models and mathematical models for COVID-19.\n\n\n\n\nSoftware\n\nSDALGCP — R package for spatial / spatio-temporal analysis of aggregated disease data (CRAN)\nhttps://cran.r-project.org/web/packages/SDALGCP/\n\nMBGapp — teaching app for model-based geostatistics (Shiny + R package)\nApp: https://olatunjijohnson.shinyapps.io/mbgapp/ · Package: https://rdrr.io/github/olatunjijohnson/MBGapp/"
   }
 ]

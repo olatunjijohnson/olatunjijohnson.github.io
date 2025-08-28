@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://olatunjijohnson.github.io/teaching.html</loc>
+    <lastmod>2025-08-28T22:36:09.689Z</lastmod>
+  </url>
+  <url>
     <loc>https://olatunjijohnson.github.io/publications/index.html</loc>
     <lastmod>2025-08-27T01:56:51.830Z</lastmod>
   </url>
@@ -18,7 +22,7 @@
   </url>
   <url>
     <loc>https://olatunjijohnson.github.io/index.html</loc>
-    <lastmod>2025-08-27T03:22:08.579Z</lastmod>
+    <lastmod>2025-08-28T22:42:38.673Z</lastmod>
   </url>
   <url>
     <loc>https://olatunjijohnson.github.io/about.html</loc>
@@ -39,5 +43,9 @@
   <url>
     <loc>https://olatunjijohnson.github.io/publications/2025-03-21-malawi-sarscov2.html</loc>
     <lastmod>2025-08-27T01:50:51.681Z</lastmod>
+  </url>
+  <url>
+    <loc>https://olatunjijohnson.github.io/research.html</loc>
+    <lastmod>2025-08-28T22:40:16.149Z</lastmod>
   </url>
 </urlset>
