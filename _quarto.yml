@@ -37,7 +37,7 @@ website:
     location: navbar
     type: overlay
   page-footer:
-    left: "© {date:YYYY} Olatunji Johnson"
+    left: "© {2025} Olatunji Johnson"
 
 format:
   html:
