@@ -1,0 +1,16 @@
+---
+title: "A modelling framework for developing early warning systems of COPD emergency admissions"
+subtitle: "Spatial and Spatio-temporal Epidemiology 36:100392 (2021)"
+date: 2021-02-01
+doi: 10.1016/j.sste.2020.100392
+authors:
+  - Olatunji Johnson
+  - Timothy Gatheral
+  - Jo Knight
+  - Emanuele Giorgi
+categories: ["Journal article"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.1016/j.sste.2020.100392)
+
+**Summary.** Develops a likelihood-based geostatistical framework for detecting threshold exceedances in COPD emergency admissions using Poisson generalised linear mixed models, incorporating pollution, weather, and deprivation domains as predictors. Demonstrates that socioeconomic factors substantially improve early warning accuracy.

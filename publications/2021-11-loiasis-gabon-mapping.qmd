@@ -1,0 +1,19 @@
+---
+title: "An integrated district mapping strategy for loiasis to enable safe mass treatment for onchocerciasis in Gabon"
+subtitle: "American Journal of Tropical Medicine and Hygiene 106(2):732–739 (2021)"
+date: 2021-11-15
+doi: 10.4269/ajtmh.21-0799
+authors:
+  - Sandrine Nkoa Ella
+  - Kindopam Ogoussan
+  - Katherine Gass
+  - Lori Hundley
+  - Peter J. Diggle
+  - Olatunji Johnson
+  - et al.
+categories: ["Journal article"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.4269/ajtmh.21-0799)
+
+**Summary.** Implements an integrated multi-disease mapping strategy across departments in Gabon, using geostatistical models to assess *Loa loa*, onchocerciasis, and loiasis co-endemicity. Reveals within-department heterogeneity that would be missed by coarser mapping approaches, improving the safety and targeting of ivermectin MDA.

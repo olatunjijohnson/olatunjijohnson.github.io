@@ -1,0 +1,17 @@
+---
+title: "Rethinking neglected tropical disease prevalence survey design and analysis: a geospatial paradigm"
+subtitle: "Transactions of the Royal Society of Tropical Medicine and Hygiene 115(3):208–210 (2021)"
+date: 2021-03-06
+doi: 10.1093/trstmh/trab020
+authors:
+  - Peter J. Diggle
+  - Benjamin Amoah
+  - Claudio Fronterre
+  - Emanuele Giorgi
+  - Olatunji Johnson
+categories: ["Journal article"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.1093/trstmh/trab020)
+
+**Summary.** Advocates for a shift from design-based to model-based geostatistical approaches in NTD prevalence surveys, arguing that spatial modelling delivers more precise prevalence estimates, supports adaptive sampling strategies, and is better suited to the needs of elimination programmes.

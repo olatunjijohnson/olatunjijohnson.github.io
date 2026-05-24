@@ -1,0 +1,15 @@
+---
+title: "Co-morbidity of malaria and soil-transmitted helminths in Nigeria: a joint Bayesian modelling approach"
+subtitle: "Infectious Diseases of Poverty 14(1):28 (2025)"
+date: 2025-04-02
+doi: 10.1186/s40249-025-01276-x
+authors:
+  - Funmilayo Eshofonie
+  - Olatunji Johnson
+  - Eniola Gayawan
+categories: ["Journal article"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.1186/s40249-025-01276-x)
+
+**Summary.** Applies a Bayesian coregionalization model to characterise the spatial co-distribution of malaria and soil-transmitted helminth infections across Nigeria, identifying regions of elevated co-endemicity — particularly in the South-South and South-East — and quantifying the correlation between the two disease burdens.

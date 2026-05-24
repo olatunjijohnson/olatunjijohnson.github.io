@@ -1,0 +1,16 @@
+---
+title: "Model-based geostatistics enables more precise estimates of neglected tropical-disease prevalence in elimination settings: mapping trachoma prevalence in Ethiopia"
+subtitle: "International Journal of Epidemiology 51(2):468–478 (2022)"
+date: 2022-05-09
+doi: 10.1093/ije/dyab227
+authors:
+  - Benjamin Amoah
+  - Claudio Fronterre
+  - Olatunji Johnson
+  - et al.
+categories: ["Journal article"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.1093/ije/dyab227) · [Open Access (PMC)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9082807/)
+
+**Summary.** Demonstrates that model-based geostatistical analysis of 3,567 cluster locations across Ethiopia yields trachomatous trichiasis prevalence estimates on average ten times more precise than conventional design-based estimates, with direct implications for targeting elimination interventions.

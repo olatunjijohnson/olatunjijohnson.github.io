@@ -1,0 +1,15 @@
+---
+title: "Dealing with spatial misalignment to model the relationship between deprivation and life expectancy: a model-based geostatistical approach"
+subtitle: "International Journal of Health Geographics 19(1):6 (2020)"
+date: 2020-03-04
+doi: 10.1186/s12942-020-00200-w
+authors:
+  - Olatunji Johnson
+  - Peter Diggle
+  - Emanuele Giorgi
+categories: ["Journal article"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.1186/s12942-020-00200-w)
+
+**Summary.** Proposes a model-based geostatistical framework for jointly analysing data collected at incompatible spatial scales — specifically area-level deprivation indices and point-referenced health outcomes — to estimate the relationship between socioeconomic deprivation and life expectancy in Liverpool, UK.
