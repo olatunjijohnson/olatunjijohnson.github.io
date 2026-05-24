@@ -1,0 +1,16 @@
+---
+title: "Understanding and overcoming geographical barriers for scaling up dog vaccinations against rabies"
+subtitle: "Scientific Reports 14, 30975 (2024)"
+date: 2024-12-28
+doi: 10.1038/s41598-024-82085-4
+authors:
+  - Maganga Sambo
+  - Katie Hampson
+  - Paul C.D. Johnson
+  - Olatunji O. Johnson
+categories: ["Journal article"]
+---
+
+**Links:** [Publisher (DOI)](https://doi.org/10.1038/s41598-024-82085-4)
+
+**Summary.** Geospatial analysis of 25 districts in southeastern Tanzania identifies land cover, settlement type, poverty, and elevation as key geographical barriers to achieving high dog vaccination coverage in mass rabies campaigns, and proposes strategies to overcome them.

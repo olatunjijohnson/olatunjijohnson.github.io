@@ -34,5 +34,20 @@
   },
   "teaching.qmd": {
     "teaching.html": "7ee4582a"
+  },
+  "publications/2024-12-nonstationary-geostatistical.qmd": {
+    "2024-12-nonstationary-geostatistical.html": "79875bbc"
+  },
+  "publications/2024-12-rabies-dog-vaccination.qmd": {
+    "2024-12-rabies-dog-vaccination.html": "b3857363"
+  },
+  "publications/2025-02-malawi-covid-spatiotemporal.qmd": {
+    "2025-02-malawi-covid-spatiotemporal.html": "18233f1f"
+  },
+  "publications/2026-02-disentangling-spatial-interference.qmd": {
+    "2026-02-disentangling-spatial-interference.html": "482db3cc"
+  },
+  "publications/2026-03-decoupling-distance-networks.qmd": {
+    "2026-03-decoupling-distance-networks.html": "3715fd29"
   }
 }

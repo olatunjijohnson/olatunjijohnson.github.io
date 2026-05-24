@@ -1,0 +1,15 @@
+---
+title: "Spatiotemporal Analysis of COVID-19 Risk in Malawi: The Impact of Age, Poverty, Population Density, and Environmental Factors"
+subtitle: "medRxiv preprint (2025)"
+date: 2025-02-16
+authors:
+  - Maureen K. Afuleni
+  - Ian Hall
+  - Thomas House
+  - Olatunji Johnson
+categories: ["Preprint"]
+---
+
+**Links:** [medRxiv](https://doi.org/10.1101/2025.02.16.25322329)
+
+**Summary.** Spatiotemporal modelling of COVID-19 incidence across Malawi, identifying age structure, poverty, population density, and environmental drivers of risk variation across districts and over the course of the pandemic.

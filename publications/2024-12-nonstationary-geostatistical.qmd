@@ -1,0 +1,14 @@
+---
+title: "Accounting for Multiple Covariates in Non-Stationary Geostatistical Modelling"
+subtitle: "arXiv preprint arXiv:2412.09225 (2024)"
+date: 2024-12-01
+authors:
+  - Olatunji Johnson
+  - Bedilu A. Ejigu
+  - Eniola Gayawan
+categories: ["Preprint"]
+---
+
+**Links:** [arXiv](https://arxiv.org/abs/2412.09225)
+
+**Summary.** Extends non-stationary geostatistical models to incorporate multiple spatially varying covariates, allowing the spatial covariance structure to change across the study region in a way that is informed by observed environmental and demographic predictors.

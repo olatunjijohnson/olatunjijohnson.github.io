@@ -1,0 +1,13 @@
+---
+title: "Disentangling spatial interference and spatial confounding biases in causal inference"
+subtitle: "arXiv preprint arXiv:2602.02777 (2026)"
+date: 2026-02-01
+authors:
+  - Ifedayo Ogunsola
+  - Olatunji Johnson
+categories: ["Preprint"]
+---
+
+**Links:** [arXiv](https://arxiv.org/abs/2602.02777)
+
+**Summary.** Develops methods to separately identify and correct for spatial interference (treatment effects spilling over to neighbours) and spatial confounding (unmeasured spatially structured covariates) in causal inference with geo-referenced data, settings where these two biases commonly co-occur.

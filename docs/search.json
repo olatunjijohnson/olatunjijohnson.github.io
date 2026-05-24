@@ -11,56 +11,35 @@
     "href": "publications/index.html",
     "title": "Publications",
     "section": "",
-    "text": "Epidemiological and phylogenetic analyses of public SARS-CoV-2 data from Malawi\n\n\nPLOS Global Public Health (2025)\n\n\n\n\n\n\n\n\nMar 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial variation and inequities in antenatal care coverage in Kenya, Uganda and mainland Tanzania using model-based geostatistics: a socioeconomic and geographical accessibility lens\n\n\nBMC Pregnancy and Childbirth 22:908 (2022)\n\n\n\n\n\n\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nGeostatistical modelling enables efficient safety assessment for mass drug administration with ivermectin in Loa loa endemic areas through a combined antibody and LoaScope testing strategy for elimination of onchocerciasis\n\n\nPLOS Neglected Tropical Diseases 16(2):e0010189 (2022)\n\n\n\n\n\n\n\n\nFeb 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nMBGapp: A Shiny application for teaching model-based geostatistics to population health scientists\n\n\nPLOS ONE 16(12):e0262145\n\n\n\n\n\n\n\n\nDec 31, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nModel-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases\n\n\nClinical Infectious Diseases 72(Suppl 3):S172–S179\n\n\n\n\n\n\n\n\nJun 14, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nA spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data\n\n\nStatistics in Medicine 38(24):4871–4887 (2019)\n\n\n\n\n\n\n\n\nOct 30, 2019\n\n\n\n\n\nNo matching items"
+    "text": "Decoupling Distance and Networks: Hybrid Graph Attention-Geostatistical Methods for Spatio-temporal Risk Mapping\n\n\narXiv preprint arXiv:2603.08393 (2026)\n\n\n\n\n\n\n\n\nMar 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDisentangling spatial interference and spatial confounding biases in causal inference\n\n\narXiv preprint arXiv:2602.02777 (2026)\n\n\n\n\n\n\n\n\nFeb 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nEpidemiological and phylogenetic analyses of public SARS-CoV-2 data from Malawi\n\n\nPLOS Global Public Health (2025)\n\n\n\n\n\n\n\n\nMar 21, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nSpatiotemporal Analysis of COVID-19 Risk in Malawi: The Impact of Age, Poverty, Population Density, and Environmental Factors\n\n\nmedRxiv preprint (2025)\n\n\n\n\n\n\n\n\nFeb 16, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding and overcoming geographical barriers for scaling up dog vaccinations against rabies\n\n\nScientific Reports 14, 30975 (2024)\n\n\n\n\n\n\n\n\nDec 28, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAccounting for Multiple Covariates in Non-Stationary Geostatistical Modelling\n\n\narXiv preprint arXiv:2412.09225 (2024)\n\n\n\n\n\n\n\n\nDec 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial variation and inequities in antenatal care coverage in Kenya, Uganda and mainland Tanzania using model-based geostatistics: a socioeconomic and geographical accessibility lens\n\n\nBMC Pregnancy and Childbirth 22:908 (2022)\n\n\n\n\n\n\n\n\nDec 6, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nGeostatistical modelling enables efficient safety assessment for mass drug administration with ivermectin in Loa loa endemic areas through a combined antibody and LoaScope testing strategy for elimination of onchocerciasis\n\n\nPLOS Neglected Tropical Diseases 16(2):e0010189 (2022)\n\n\n\n\n\n\n\n\nFeb 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nMBGapp: A Shiny application for teaching model-based geostatistics to population health scientists\n\n\nPLOS ONE 16(12):e0262145\n\n\n\n\n\n\n\n\nDec 31, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nModel-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases\n\n\nClinical Infectious Diseases 72(Suppl 3):S172–S179\n\n\n\n\n\n\n\n\nJun 14, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nA spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data\n\n\nStatistics in Medicine 38(24):4871–4887 (2019)\n\n\n\n\n\n\n\n\nOct 30, 2019\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "publications/2022-12-06-anc-inequities-east-africa.html",
-    "href": "publications/2022-12-06-anc-inequities-east-africa.html",
-    "title": "Spatial variation and inequities in antenatal care coverage in Kenya, Uganda and mainland Tanzania using model-based geostatistics: a socioeconomic and geographical accessibility lens",
+    "objectID": "publications/2026-02-disentangling-spatial-interference.html",
+    "href": "publications/2026-02-disentangling-spatial-interference.html",
+    "title": "Disentangling spatial interference and spatial confounding biases in causal inference",
     "section": "",
-    "text": "Links: Publisher (DOI) · Open Access PDF\nSummary. 3×3-km MBG maps reveal ANC4+ inequities across wealth, education and travel-time strata in Kenya, Uganda and mainland Tanzania."
+    "text": "Links: arXiv\nSummary. Develops methods to separately identify and correct for spatial interference (treatment effects spilling over to neighbours) and spatial confounding (unmeasured spatially structured covariates) in causal inference with geo-referenced data, settings where these two biases commonly co-occur."
   },
   {
-    "objectID": "publications/2021-sth-survey-design-cid.html",
-    "href": "publications/2021-sth-survey-design-cid.html",
-    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
+    "objectID": "publications/2025-02-malawi-covid-spatiotemporal.html",
+    "href": "publications/2025-02-malawi-covid-spatiotemporal.html",
+    "title": "Spatiotemporal Analysis of COVID-19 Risk in Malawi: The Impact of Age, Poverty, Population Density, and Environmental Factors",
     "section": "",
-    "text": "Authors: Olatunji Johnson; Claudio Fronterre; Benjamin Amoah; Antonio Montresor; Emanuele Giorgi; Nicholas Midzi; Masceline J. Mutsaka-Makuvaza; Ibrahim Kargbo-Labor; Mary H. Hodges; Yaobi Zhang; Collins Okoyo; Charles Mwandawiro; Mark Minnery; Peter J. Diggle\nJournal: Clinical Infectious Diseases, 72(Suppl 3):S172–S179 (2021)"
+    "text": "Links: medRxiv\nSummary. Spatiotemporal modelling of COVID-19 incidence across Malawi, identifying age structure, poverty, population density, and environmental drivers of risk variation across districts and over the course of the pandemic."
   },
   {
-    "objectID": "publications/2021-sth-survey-design-cid.html#summary",
-    "href": "publications/2021-sth-survey-design-cid.html#summary",
-    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
-    "section": "Summary",
-    "text": "Summary\nShows how MBG-based survey design and analysis can outperform WHO guideline methods, using STH surveys in Kenya, Sierra Leone, and Zimbabwe—achieving improved precision with less field effort."
-  },
-  {
-    "objectID": "publications/2021-sth-survey-design-cid.html#citation",
-    "href": "publications/2021-sth-survey-design-cid.html#citation",
-    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
-    "section": "Citation",
-    "text": "Citation\nJohnson O, Fronterre C, Amoah B, et al. (2021). Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys… Clin Infect Dis, 72(Suppl 3):S172–S179. https://doi.org/10.1093/cid/ciab192"
-  },
-  {
-    "objectID": "publications/2019-10-30-lgcp-discrete-approx.html",
-    "href": "publications/2019-10-30-lgcp-discrete-approx.html",
-    "title": "A spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data",
+    "objectID": "publications/2024-12-nonstationary-geostatistical.html",
+    "href": "publications/2024-12-nonstationary-geostatistical.html",
+    "title": "Accounting for Multiple Covariates in Non-Stationary Geostatistical Modelling",
     "section": "",
-    "text": "Links: Publisher (DOI) · Preprint\nSummary. Introduces an efficient discrete approximation to LGCPs for aggregated count data, enabling continuous-space prediction (implemented in SDALGCP)."
+    "text": "Links: arXiv\nSummary. Extends non-stationary geostatistical models to incorporate multiple spatially varying covariates, allowing the spatial covariance structure to change across the study region in a way that is informed by observed environmental and demographic predictors."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About me",
+    "objectID": "publications/2022-02-09-loa-loa-mda-safety.html",
+    "href": "publications/2022-02-09-loa-loa-mda-safety.html",
+    "title": "Geostatistical modelling enables efficient safety assessment for mass drug administration with ivermectin in Loa loa endemic areas through a combined antibody and LoaScope testing strategy for elimination of onchocerciasis",
     "section": "",
-    "text": "I’m a Lecturer in Statistics in the Department of Mathematics at The University of Manchester. I was formerly a post-doctoral researcher and PhD student at CHICAS, Lancaster Medical School, Lancaster University (UK). My PhD was supervised by Prof. Peter Diggle, Prof. Emanuele Giorgi and Prof. Jo Knight.\nMy research develops novel Model-based Geostatistical (MBG) methods to provide valuable answers to many global public health questions and support informed decision-making in low-resource settings. I have worked and currently working on several global public health problems including COPD, malaria and neglected tropical diseases (NTDs) such as river blindness, soil-transmitted helminths, schistosomiasis, Trachoma, Loiasis.\nDownload CV View Publications Email"
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "About me",
-    "section": "Contact",
-    "text": "Contact\nEmail: olatunji.johnson AAATTT manchester.ac.uk\nGoogle Scholar: https://scholar.google.com/citations?user=gn9CZVYAAAAJ&hl=en\nGitHub: https://github.com/olatunjijohnson"
+    "text": "Links: Publisher (DOI) · Open Access (PMC)\nSummary. Two-stage strategy (antibody screening → targeted LoaScope) with a multivariate geostatistical model to classify areas as safe/unsafe for ivermectin MDA."
   },
   {
     "objectID": "publications/2021-mbgapp-plosone.html",
@@ -84,11 +63,60 @@
     "text": "Citation\nJohnson O, Fronterre C, Diggle PJ, Amoah B, Giorgi E (2021). MBGapp… PLOS ONE, 16(12):e0262145. https://doi.org/10.1371/journal.pone.0262145"
   },
   {
-    "objectID": "publications/2022-02-09-loa-loa-mda-safety.html",
-    "href": "publications/2022-02-09-loa-loa-mda-safety.html",
-    "title": "Geostatistical modelling enables efficient safety assessment for mass drug administration with ivermectin in Loa loa endemic areas through a combined antibody and LoaScope testing strategy for elimination of onchocerciasis",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About me",
     "section": "",
-    "text": "Links: Publisher (DOI) · Open Access (PMC)\nSummary. Two-stage strategy (antibody screening → targeted LoaScope) with a multivariate geostatistical model to classify areas as safe/unsafe for ivermectin MDA."
+    "text": "I’m a Lecturer in Statistics in the Department of Mathematics at The University of Manchester. I was formerly a post-doctoral researcher and PhD student at CHICAS, Lancaster Medical School, Lancaster University (UK). My PhD was supervised by Prof. Peter Diggle, Prof. Emanuele Giorgi and Prof. Jo Knight.\nMy research develops novel Model-based Geostatistical (MBG) methods to provide valuable answers to many global public health questions and support informed decision-making in low-resource settings. I have worked and currently working on several global public health problems including COPD, malaria and neglected tropical diseases (NTDs) such as river blindness, soil-transmitted helminths, schistosomiasis, Trachoma, Loiasis.\nDownload CV View Publications Email"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "About me",
+    "section": "Contact",
+    "text": "Contact\nEmail: olatunji.johnson@manchester.ac.uk\nORCID: https://orcid.org/0000-0002-4080-0999\nGoogle Scholar: https://scholar.google.com/citations?user=gn9CZVYAAAAJ&hl=en\nGitHub: https://github.com/olatunjijohnson"
+  },
+  {
+    "objectID": "publications/2019-10-30-lgcp-discrete-approx.html",
+    "href": "publications/2019-10-30-lgcp-discrete-approx.html",
+    "title": "A spatially discrete approximation to log-Gaussian Cox processes for modelling aggregated disease count data",
+    "section": "",
+    "text": "Links: Publisher (DOI) · Preprint\nSummary. Introduces an efficient discrete approximation to LGCPs for aggregated count data, enabling continuous-space prediction (implemented in SDALGCP)."
+  },
+  {
+    "objectID": "publications/2021-sth-survey-design-cid.html",
+    "href": "publications/2021-sth-survey-design-cid.html",
+    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
+    "section": "",
+    "text": "Authors: Olatunji Johnson; Claudio Fronterre; Benjamin Amoah; Antonio Montresor; Emanuele Giorgi; Nicholas Midzi; Masceline J. Mutsaka-Makuvaza; Ibrahim Kargbo-Labor; Mary H. Hodges; Yaobi Zhang; Collins Okoyo; Charles Mwandawiro; Mark Minnery; Peter J. Diggle\nJournal: Clinical Infectious Diseases, 72(Suppl 3):S172–S179 (2021)"
+  },
+  {
+    "objectID": "publications/2021-sth-survey-design-cid.html#summary",
+    "href": "publications/2021-sth-survey-design-cid.html#summary",
+    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
+    "section": "Summary",
+    "text": "Summary\nShows how MBG-based survey design and analysis can outperform WHO guideline methods, using STH surveys in Kenya, Sierra Leone, and Zimbabwe—achieving improved precision with less field effort."
+  },
+  {
+    "objectID": "publications/2021-sth-survey-design-cid.html#citation",
+    "href": "publications/2021-sth-survey-design-cid.html#citation",
+    "title": "Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys for Soil-Transmitted Helminth Infection and Other Neglected Tropical Diseases",
+    "section": "Citation",
+    "text": "Citation\nJohnson O, Fronterre C, Amoah B, et al. (2021). Model-Based Geostatistical Methods Enable Efficient Design and Analysis of Prevalence Surveys… Clin Infect Dis, 72(Suppl 3):S172–S179. https://doi.org/10.1093/cid/ciab192"
+  },
+  {
+    "objectID": "publications/2022-12-06-anc-inequities-east-africa.html",
+    "href": "publications/2022-12-06-anc-inequities-east-africa.html",
+    "title": "Spatial variation and inequities in antenatal care coverage in Kenya, Uganda and mainland Tanzania using model-based geostatistics: a socioeconomic and geographical accessibility lens",
+    "section": "",
+    "text": "Links: Publisher (DOI) · Open Access PDF\nSummary. 3×3-km MBG maps reveal ANC4+ inequities across wealth, education and travel-time strata in Kenya, Uganda and mainland Tanzania."
+  },
+  {
+    "objectID": "publications/2024-12-rabies-dog-vaccination.html",
+    "href": "publications/2024-12-rabies-dog-vaccination.html",
+    "title": "Understanding and overcoming geographical barriers for scaling up dog vaccinations against rabies",
+    "section": "",
+    "text": "Links: Publisher (DOI)\nSummary. Geospatial analysis of 25 districts in southeastern Tanzania identifies land cover, settlement type, poverty, and elevation as key geographical barriers to achieving high dog vaccination coverage in mass rabies campaigns, and proposes strategies to overcome them."
   },
   {
     "objectID": "publications/2025-03-21-malawi-sarscov2.html",
@@ -98,10 +126,17 @@
     "text": "Links: Publisher (DOI)\nSummary. Integrates epidemiology and phylogenetics to describe five COVID-19 waves in Malawi (2020–2022), highlighting variant dynamics and geographic heterogeneity."
   },
   {
+    "objectID": "publications/2026-03-decoupling-distance-networks.html",
+    "href": "publications/2026-03-decoupling-distance-networks.html",
+    "title": "Decoupling Distance and Networks: Hybrid Graph Attention-Geostatistical Methods for Spatio-temporal Risk Mapping",
+    "section": "",
+    "text": "Links: arXiv\nSummary. Proposes a hybrid framework that combines graph attention networks with model-based geostatistics to capture both network-structured and distance-based spatial dependence in spatio-temporal disease risk mapping, decoupling the two sources of spatial structure."
+  },
+  {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Research interests\nMy research interests lie in the interface of statistics, epidemiology and health informatics with a particular interest in spatial statistics, public health and environmental epidemiology. I am interested in developing novel model-based geostatistical methods for tropical disease mapping.\nMy methodological themes include spatial and spatio-temporal statistics; joint modelling of multiple outcomes; geostatistical methods for spatial misalignment and Machine Learning.\nMy application themes include real-time health surveillance; tropical disease mapping; environmental epidemiology.\n\n\n\nPhD Opportunities\nI welcome enquiries from motivated students interested in pursuing a PhD in spatial statistics and its applications to global public health. Possible research directions include:\n\nMixture models for spatially clustered disease data — developing Bayesian mixture approaches to detect and characterise spatial clustering in geo-referenced health surveys, with applications to NTD mapping.\nMultivariate spatio-temporal modelling — extending geostatistical frameworks to jointly model multiple correlated outcomes (e.g. co-endemic diseases) across space and time, including scalable inference methods for large datasets.\nHybrid geostatistical and machine learning methods — investigating principled ways to combine the predictive power of machine learning with the uncertainty quantification and interpretability of model-based geostatistics for health risk mapping.\nGeostatistical methods for spatially misaligned data — addressing the challenge of combining data collected at incompatible spatial scales (e.g. individual surveys, areal counts, and remote-sensing covariates) within a unified inferential framework.\n\nProspective students are encouraged to contact me with a CV and a brief statement of their research interests. Funding opportunities (including EPSRC and university scholarships) are available for strong candidates. Please email olatunji.johnson@manchester.ac.uk to discuss.\n\n\n\nCurrent projects\n\nClimate and Health — Causal Inference methods for estimating the indirect effect of climate change on health.\nHybrid Machine learning and Geostatistical models — Investigating how best to combine these approaches.\nCOVID-19 - Developing spatio-temporal models and mathematical models for COVID-19.\n\n\n\n\nSoftware\n\nSDALGCP — R package for spatial / spatio-temporal analysis of aggregated disease data (CRAN)\nhttps://cran.r-project.org/web/packages/SDALGCP/\n\nMBGapp — teaching app for model-based geostatistics (Shiny + R package)\nApp: https://olatunjijohnson.shinyapps.io/mbgapp/ · Package: https://rdrr.io/github/olatunjijohnson/MBGapp/"
+    "text": "Research interests\nMy research interests lie in the interface of statistics, epidemiology and health informatics with a particular interest in spatial statistics, public health and environmental epidemiology. I am interested in developing novel model-based geostatistical methods for tropical disease mapping.\nMy methodological themes include spatial and spatio-temporal statistics; joint modelling of multiple outcomes; geostatistical methods for spatial misalignment and Machine Learning.\nMy application themes include real-time health surveillance; tropical disease mapping; environmental epidemiology.\n\n\n\nPhD Opportunities\nI welcome enquiries from motivated students interested in pursuing a PhD in spatial statistics and its applications to global public health. Possible research directions include:\n\nMixture models for spatially clustered disease data — developing Bayesian mixture approaches to detect and characterise spatial clustering in geo-referenced health surveys, with applications to NTD mapping.\nMultivariate spatio-temporal modelling — extending geostatistical frameworks to jointly model multiple correlated outcomes (e.g. co-endemic diseases) across space and time, including scalable inference methods for large datasets.\nHybrid geostatistical and machine learning methods — investigating principled ways to combine the predictive power of machine learning with the uncertainty quantification and interpretability of model-based geostatistics for health risk mapping.\nGeostatistical methods for spatially misaligned data — addressing the challenge of combining data collected at incompatible spatial scales (e.g. individual surveys, areal counts, and remote-sensing covariates) within a unified inferential framework.\n\nProspective students are encouraged to contact me with a CV and a brief statement of their research interests. Funding opportunities (including EPSRC and university scholarships) are available for strong candidates. Please email olatunji.johnson@manchester.ac.uk to discuss.\n\n\n\nCurrent projects\n\nClimate and Health — Causal Inference methods for estimating the indirect effect of climate change on health.\nHybrid Machine learning and Geostatistical models — Investigating how best to combine these approaches.\nCOVID-19 - Developing spatio-temporal models and mathematical models for COVID-19.\n\n\n\n\nSoftware\n\nSDALGCP — R package for spatial / spatio-temporal analysis of aggregated disease data https://github.com/olatunjijohnson/SDALGCP\n\nMBGapp — teaching app for model-based geostatistics (Shiny + R package)\nApp: https://olatunjijohnson.shinyapps.io/mbgapp/ · Package: https://rdrr.io/github/olatunjijohnson/MBGapp/"
   }
 ]

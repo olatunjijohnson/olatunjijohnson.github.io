@@ -1,0 +1,15 @@
+---
+title: "Decoupling Distance and Networks: Hybrid Graph Attention-Geostatistical Methods for Spatio-temporal Risk Mapping"
+subtitle: "arXiv preprint arXiv:2603.08393 (2026)"
+date: 2026-03-01
+authors:
+  - Temitope T. Bamidele
+  - Eniola Gayawan
+  - Francis B. Adebola
+  - Olatunji Johnson
+categories: ["Preprint"]
+---
+
+**Links:** [arXiv](https://arxiv.org/abs/2603.08393)
+
+**Summary.** Proposes a hybrid framework that combines graph attention networks with model-based geostatistics to capture both network-structured and distance-based spatial dependence in spatio-temporal disease risk mapping, decoupling the two sources of spatial structure.
