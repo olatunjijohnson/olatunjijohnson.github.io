@@ -14,17 +14,19 @@ My application themes include real-time health surveillance; tropical disease ma
 
 ---
 
-# PhD Opportunities 
+# PhD Opportunities
 
-I am looking for PhD students to work on the following topics:
+I welcome enquiries from motivated students interested in pursuing a PhD in **spatial statistics** and its applications to **global public health**. Possible research directions include:
 
-1. Modelling clustering geo-referenced data via mixtures.
+1. **Mixture models for spatially clustered disease data** — developing Bayesian mixture approaches to detect and characterise spatial clustering in geo-referenced health surveys, with applications to NTD mapping.
 
-2. Inference for multivariate spatio-temporal models.
+2. **Multivariate spatio-temporal modelling** — extending geostatistical frameworks to jointly model multiple correlated outcomes (e.g. co-endemic diseases) across space and time, including scalable inference methods for large datasets.
 
-3. Hybrid geostatistical and machine learning approaches for analysing spatial data.
+3. **Hybrid geostatistical and machine learning methods** — investigating principled ways to combine the predictive power of machine learning with the uncertainty quantification and interpretability of model-based geostatistics for health risk mapping.
 
-4. Modelling spatially misaligned data.
+4. **Geostatistical methods for spatially misaligned data** — addressing the challenge of combining data collected at incompatible spatial scales (e.g. individual surveys, areal counts, and remote-sensing covariates) within a unified inferential framework.
+
+Prospective students are encouraged to contact me with a CV and a brief statement of their research interests. Funding opportunities (including EPSRC and university scholarships) are available for strong candidates. Please email [olatunji.johnson@manchester.ac.uk](mailto:olatunji.johnson@manchester.ac.uk) to discuss.
 
 ---
 

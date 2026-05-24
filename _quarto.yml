@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render:
     - "*.qmd"
+    - "!posts/**"
     - publications/**/*.qmd
   resources:
     - files/**
@@ -27,12 +28,15 @@ website:
       - icon: mortarboard
         aria-label: Google Scholar
         href: https://scholar.google.com/citations?user=gn9CZVYAAAAJ&hl=en
+      - text: "ORCID"
+        aria-label: ORCID
+        href: https://orcid.org/0000-0002-4080-0999
       - icon: github
         aria-label: GitHub
         href: https://github.com/olatunjijohnson
       - icon: envelope
         aria-label: Email
-        href: mailto:olatunjijohnson21111@gmail.com
+        href: mailto:olatunji.johnson@manchester.ac.uk
   search:
     location: navbar
     type: overlay
