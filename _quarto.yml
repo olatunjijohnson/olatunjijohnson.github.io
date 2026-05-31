@@ -20,6 +20,8 @@ website:
         href: research.qmd
       - text: Teaching
         href: teaching.qmd
+      - text: Software
+        href: software.qmd
       - text: Publications
         href: publications/index.qmd
       - text: CV
@@ -45,7 +47,6 @@ website:
 
 format:
   html:
-    theme: cosmo          # keep it simple + readable
-    css: styles.css       # your purple/white tweaks (plain CSS)
+    theme: [cosmo, styles.scss]   # cosmo base + purple/white branding
     toc: false
     smooth-scroll: true

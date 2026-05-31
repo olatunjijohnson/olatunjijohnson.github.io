@@ -17,10 +17,15 @@ I aim to connect **statistical theory** to **real decision-making** in my teachi
 
 # Workshops & training
 
+- **Advanced Geostatistical Modelling** (FUTA, Nigeria, 2026) — a three-day workshop
+  on spatial and spatio-temporal analysis, multivariate modelling, non-stationary
+  processes, and machine learning for geostatistics. Supported by the **London
+  Mathematical Society (Scheme 5)** and the Department of Mathematics, University of
+  Manchester. [Workshop materials](https://olatunjijohnson.github.io/FUTA-workshop-2026/){.btn .btn-primary .btn-sm}
 - Model-based geostatistics for global public health data (Indonesia, 2025)
 - Inferential Methods for Random Effects Models (AIMS Rwanda, 2024)
 - Disease mapping tutorials in R (various workshops incl. UCT, South Africa, 2020)
-- Model-based geostatistics for spatially aggregated disease data (FUTA, Nigeria, 2019)  
+- Model-based geostatistics for spatially aggregated disease data (FUTA, Nigeria, 2019)
 
 ---
 
@@ -34,8 +39,9 @@ I aim to connect **statistical theory** to **real decision-making** in my teachi
 
 # Teaching resources
 
-- **MBGapp** (R/Shiny) — interactive tool for model-based geostatistics:  
-  - App: <https://olatunjijohnson.shinyapps.io/mbgapp/>  
-  - Package: <https://rdrr.io/github/olatunjijohnson/MBGapp/>  
+I build interactive R/Shiny tools for teaching spatial statistics, including
+**MBGapp** (model-based geostatistics) and **variogramApp** (exploring variograms
+and Gaussian random fields). See the [Software](software.qmd) page for the full list
+with live demos.
 
 If you’re a student looking for supervision in **spatial statistics / epidemiology**, feel free to get in touch.

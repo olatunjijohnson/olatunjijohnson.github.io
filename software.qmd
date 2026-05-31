@@ -1,0 +1,107 @@
+---
+title: "Software"
+description: "R packages and interactive Shiny applications for spatial statistics and global health."
+toc: true
+---
+
+I develop open-source software that makes **model-based geostatistics** and
+**spatial epidemiology** methods accessible to researchers, students, and
+public-health practitioners. Everything below is free and open source.
+
+# R packages
+
+::: {.card .p-3 .mb-3}
+### SDALGCP
+
+An R package for spatially continuous inference with **spatially aggregated
+disease count data**, using a low-rank approximation to the log-Gaussian Cox
+process for computational efficiency.
+
+```r
+remotes::install_github("olatunjijohnson/SDALGCP")
+```
+
+[GitHub](https://github.com/olatunjijohnson/SDALGCP){.btn .btn-primary .btn-sm}
+:::
+
+::: {.card .p-3 .mb-3}
+### ESPENAPI
+
+An R package for downloading **Neglected Tropical Disease (NTD)** data directly
+from the WHO ESPEN portal API and the WHO Global Health Observatory, returning
+tidy data frames ready for analysis.
+
+```r
+remotes::install_github("olatunjijohnson/ESPENAPI")
+```
+
+[GitHub](https://github.com/olatunjijohnson/ESPENAPI){.btn .btn-primary .btn-sm}
+:::
+
+::: {.card .p-3 .mb-3}
+### MBGapp
+
+An R package and Shiny application for teaching **model-based geostatistics**,
+walking learners through the full workflow: exploration → variogram → model
+fitting → prediction. Published in *PLOS ONE* (2021).
+
+```r
+remotes::install_github("olatunjijohnson/MBGapp")
+```
+
+[GitHub](https://github.com/olatunjijohnson/MBGapp){.btn .btn-primary .btn-sm}
+[Launch app](https://olatunjijohnson.shinyapps.io/mbgapp/){.btn .btn-outline-secondary .btn-sm}
+[Paper](https://doi.org/10.1371/journal.pone.0262145){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.card .p-3 .mb-3}
+### variogramApp
+
+An R package and Shiny application for interactively exploring **variograms** and
+**Gaussian random fields** — a hands-on teaching tool for understanding spatial
+correlation across twelve covariance models.
+
+```r
+remotes::install_github("olatunjijohnson/variogramApp")
+```
+
+[GitHub](https://github.com/olatunjijohnson/variogramApp){.btn .btn-primary .btn-sm}
+[Launch app](https://olatunjijohnson-variogramapp.hf.space){.btn .btn-outline-secondary .btn-sm}
+:::
+
+# Shiny applications
+
+::: {.card .p-3 .mb-3}
+### MBGapp
+
+Interactive model-based geostatistics for population-health scientists, using a
+**Loa loa** case study. Runs entirely in the browser — no R installation needed.
+
+[Launch app](https://olatunjijohnson.shinyapps.io/mbgapp/){.btn .btn-primary .btn-sm}
+[GitHub](https://github.com/olatunjijohnson/MBGapp){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.card .p-3 .mb-3}
+### variogramApp
+
+Explore how covariance-model parameters shape the variogram and simulate
+Gaussian random fields in one or two dimensions. Ideal for classroom use — share
+the URL or a QR code.
+
+[Launch app](https://olatunjijohnson-variogramapp.hf.space){.btn .btn-primary .btn-sm}
+[GitHub](https://github.com/olatunjijohnson/variogramApp){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.card .p-3 .mb-3}
+### LEBLiverpool
+
+A Shiny application visualising **Life Expectancy at Birth (LEB)** across Liverpool,
+UK, illustrating small-area health inequalities.
+
+[GitHub](https://github.com/olatunjijohnson/LEBLiverpool){.btn .btn-primary .btn-sm}
+:::
+
+---
+
+All code is released under open-source licences. Contributions, bug reports, and
+feature requests are welcome via the GitHub repositories above.

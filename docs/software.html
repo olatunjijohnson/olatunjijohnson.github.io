@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2021-03-06">
+<meta name="description" content="R packages and interactive Shiny applications for spatial statistics and global health.">
 
-<title>Rethinking neglected tropical disease prevalence survey design and analysis: a geospatial paradigm – Dr Olatunji Johnson</title>
+<title>Software – Dr Olatunji Johnson</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,26 +24,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8fe7748ebc9cd0506015e12d7812f746.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-8fe7748ebc9cd0506015e12d7812f746.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,14 +110,14 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Dr Olatunji Johnson</span>
     </a>
   </div>
@@ -93,27 +128,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.html"> 
+    <a class="nav-link" href="./research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../software.html"> 
+    <a class="nav-link active" href="./software.html" aria-current="page"> 
 <span class="menu-text">Software</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications/index.html"> 
+    <a class="nav-link" href="./publications/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../files/cv.pdf"> 
+    <a class="nav-link" href="./files/cv.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
@@ -148,50 +183,47 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#r-packages" id="toc-r-packages" class="nav-link active" data-scroll-target="#r-packages">R packages</a>
+  <ul class="collapse">
+  <li><a href="#sdalgcp" id="toc-sdalgcp" class="nav-link" data-scroll-target="#sdalgcp">SDALGCP</a></li>
+  <li><a href="#espenapi" id="toc-espenapi" class="nav-link" data-scroll-target="#espenapi">ESPENAPI</a></li>
+  <li><a href="#mbgapp" id="toc-mbgapp" class="nav-link" data-scroll-target="#mbgapp">MBGapp</a></li>
+  <li><a href="#variogramapp" id="toc-variogramapp" class="nav-link" data-scroll-target="#variogramapp">variogramApp</a></li>
+  </ul></li>
+  <li><a href="#shiny-applications" id="toc-shiny-applications" class="nav-link" data-scroll-target="#shiny-applications">Shiny applications</a>
+  <ul class="collapse">
+  <li><a href="#mbgapp-1" id="toc-mbgapp-1" class="nav-link" data-scroll-target="#mbgapp-1">MBGapp</a></li>
+  <li><a href="#variogramapp-1" id="toc-variogramapp-1" class="nav-link" data-scroll-target="#variogramapp-1">variogramApp</a></li>
+  <li><a href="#lebliverpool" id="toc-lebliverpool" class="nav-link" data-scroll-target="#lebliverpool">LEBLiverpool</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Rethinking neglected tropical disease prevalence survey design and analysis: a geospatial paradigm</h1>
-<p class="subtitle lead">Transactions of the Royal Society of Tropical Medicine and Hygiene 115(3):208–210 (2021)</p>
-  <div class="quarto-categories">
-    <div class="quarto-category">Journal article</div>
-  </div>
-  </div>
+<h1 class="title">Software</h1>
+</div>
 
+<div>
+  <div class="description">
+    R packages and interactive Shiny applications for spatial statistics and global health.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Peter J. Diggle </p>
-             <p>Benjamin Amoah </p>
-             <p>Claudio Fronterre </p>
-             <p>Emanuele Giorgi </p>
-             <p>Olatunji Johnson </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">March 6, 2021</p>
-    </div>
-  </div>
   
     
-    <div>
-    <div class="quarto-title-meta-heading">Doi</div>
-    <div class="quarto-title-meta-contents">
-      <p class="doi">
-        <a href="https://doi.org/10.1093/trstmh/trab020">10.1093/trstmh/trab020</a>
-      </p>
-    </div>
-  </div>
   </div>
   
 
@@ -199,10 +231,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Links:</strong> <a href="https://doi.org/10.1093/trstmh/trab020">Publisher (DOI)</a></p>
-<p><strong>Summary.</strong> Advocates for a shift from design-based to model-based geostatistical approaches in NTD prevalence surveys, arguing that spatial modelling delivers more precise prevalence estimates, supports adaptive sampling strategies, and is better suited to the needs of elimination programmes.</p>
+<p>I develop open-source software that makes <strong>model-based geostatistics</strong> and <strong>spatial epidemiology</strong> methods accessible to researchers, students, and public-health practitioners. Everything below is free and open source.</p>
+<section id="r-packages" class="level1">
+<h1>R packages</h1>
+<section id="sdalgcp" class="level3 card p-3 mb-3">
+<h3 class="anchored" data-anchor-id="sdalgcp">SDALGCP</h3>
+<p>An R package for spatially continuous inference with <strong>spatially aggregated disease count data</strong>, using a low-rank approximation to the log-Gaussian Cox process for computational efficiency.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"olatunjijohnson/SDALGCP"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><a href="https://github.com/olatunjijohnson/SDALGCP" class="btn btn-primary btn-sm">GitHub</a></p>
+</section>
+<section id="espenapi" class="level3 card p-3 mb-3">
+<h3 class="anchored" data-anchor-id="espenapi">ESPENAPI</h3>
+<p>An R package for downloading <strong>Neglected Tropical Disease (NTD)</strong> data directly from the WHO ESPEN portal API and the WHO Global Health Observatory, returning tidy data frames ready for analysis.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"olatunjijohnson/ESPENAPI"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><a href="https://github.com/olatunjijohnson/ESPENAPI" class="btn btn-primary btn-sm">GitHub</a></p>
+</section>
+<section id="mbgapp" class="level3 card p-3 mb-3">
+<h3 class="anchored" data-anchor-id="mbgapp">MBGapp</h3>
+<p>An R package and Shiny application for teaching <strong>model-based geostatistics</strong>, walking learners through the full workflow: exploration → variogram → model fitting → prediction. Published in <em>PLOS ONE</em> (2021).</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"olatunjijohnson/MBGapp"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><a href="https://github.com/olatunjijohnson/MBGapp" class="btn btn-primary btn-sm">GitHub</a> <a href="https://olatunjijohnson.shinyapps.io/mbgapp/" class="btn btn-outline-secondary btn-sm">Launch app</a> <a href="https://doi.org/10.1371/journal.pone.0262145" class="btn btn-outline-secondary btn-sm">Paper</a></p>
+</section>
+<section id="variogramapp" class="level3 card p-3 mb-3">
+<h3 class="anchored" data-anchor-id="variogramapp">variogramApp</h3>
+<p>An R package and Shiny application for interactively exploring <strong>variograms</strong> and <strong>Gaussian random fields</strong> — a hands-on teaching tool for understanding spatial correlation across twelve covariance models.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"olatunjijohnson/variogramApp"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><a href="https://github.com/olatunjijohnson/variogramApp" class="btn btn-primary btn-sm">GitHub</a> <a href="https://olatunjijohnson-variogramapp.hf.space" class="btn btn-outline-secondary btn-sm">Launch app</a></p>
+</section>
+</section>
+<section id="shiny-applications" class="level1">
+<h1>Shiny applications</h1>
+<section id="mbgapp-1" class="level3 card p-3 mb-3">
+<h3 class="anchored" data-anchor-id="mbgapp-1">MBGapp</h3>
+<p>Interactive model-based geostatistics for population-health scientists, using a <strong>Loa loa</strong> case study. Runs entirely in the browser — no R installation needed.</p>
+<p><a href="https://olatunjijohnson.shinyapps.io/mbgapp/" class="btn btn-primary btn-sm">Launch app</a> <a href="https://github.com/olatunjijohnson/MBGapp" class="btn btn-outline-secondary btn-sm">GitHub</a></p>
+</section>
+<section id="variogramapp-1" class="level3 card p-3 mb-3">
+<h3 class="anchored" data-anchor-id="variogramapp-1">variogramApp</h3>
+<p>Explore how covariance-model parameters shape the variogram and simulate Gaussian random fields in one or two dimensions. Ideal for classroom use — share the URL or a QR code.</p>
+<p><a href="https://olatunjijohnson-variogramapp.hf.space" class="btn btn-primary btn-sm">Launch app</a> <a href="https://github.com/olatunjijohnson/variogramApp" class="btn btn-outline-secondary btn-sm">GitHub</a></p>
+</section>
+<section id="lebliverpool" class="level3 card p-3 mb-3">
+<h3 class="anchored" data-anchor-id="lebliverpool">LEBLiverpool</h3>
+<p>A Shiny application visualising <strong>Life Expectancy at Birth (LEB)</strong> across Liverpool, UK, illustrating small-area health inequalities.</p>
+<p><a href="https://github.com/olatunjijohnson/LEBLiverpool" class="btn btn-primary btn-sm">GitHub</a></p>
+</section>
+<hr>
+<p>All code is released under open-source licences. Contributions, bug reports, and feature requests are welcome via the GitHub repositories above.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -623,5 +701,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

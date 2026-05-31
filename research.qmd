@@ -40,10 +40,10 @@ Prospective students are encouraged to contact me with a CV and a brief statemen
 
 # Software
 
-- **SDALGCP** — R package for spatial / spatio-temporal analysis of **aggregated disease data**
-  <https://github.com/olatunjijohnson/SDALGCP>  
-- **MBGapp** — teaching app for model-based geostatistics (Shiny + R package)  
-  App: <https://olatunjijohnson.shinyapps.io/mbgapp/> · Package: <https://rdrr.io/github/olatunjijohnson/MBGapp/>
+I develop open-source R packages and Shiny applications for spatial statistics and
+global health, including **SDALGCP**, **ESPENAPI**, **MBGapp**, and **variogramApp**.
+See the [Software](software.qmd) page for the full list with documentation and live
+demos.
 
 ---
 
