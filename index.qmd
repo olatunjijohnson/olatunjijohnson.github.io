@@ -23,6 +23,20 @@ several global public health problems including COPD, malaria and neglected trop
 
 ------------------------------------------------------------------------
 
+## News
+
+- **Mar 2026** — New preprint: *Decoupling Distance and Networks — Hybrid Graph
+  Attention–Geostatistical Methods for Spatio-temporal Risk Mapping*. See
+  [Publications](/publications/).
+- **Feb 2026** — New paper on *disentangling spatial interference and spatial
+  confounding biases in causal inference*.
+- **Jan 2026** — Delivered the **Advanced Geostatistical Modelling** workshop at
+  FUTA, Nigeria. [Materials here](https://olatunjijohnson.github.io/FUTA-workshop-2026/).
+- **2025** — Released **ESPENAPI** (NTD data access) and **variogramApp** (now
+  hosted online). See the [Software](/software.html) page.
+
+------------------------------------------------------------------------
+
 ## Contact
 
 **Email:** olatunji.johnson@manchester.ac.uk
