@@ -41,7 +41,8 @@ Prospective students are encouraged to contact me with a CV and a brief statemen
 # Software
 
 I develop open-source R packages and Shiny applications for spatial statistics and
-global health, including **SDALGCP**, **ESPENAPI**, **MBGapp**, and **variogramApp**.
+global health, including **SDALGCP2**, **ESPENAPI**, **MBGapp**, **variogramApp**,
+and **spLeakage**.
 See the [Software](software.qmd) page for the full list with documentation and live
 demos.
 

@@ -11,17 +11,31 @@ public-health practitioners. Everything below is free and open source.
 # R packages
 
 ::: {.card .p-3 .mb-3}
-### SDALGCP
+### SDALGCP2
 
-An R package for spatially continuous inference with **spatially aggregated
-disease count data**, using a low-rank approximation to the log-Gaussian Cox
-process for computational efficiency.
+The successor to **SDALGCP**, now on **CRAN**. An R package fitting a spatially
+discrete approximation to the log-Gaussian Cox process for **spatially
+aggregated disease count data**, estimated by Monte Carlo Maximum Likelihood.
 
 ```r
-remotes::install_github("olatunjijohnson/SDALGCP")
+install.packages("SDALGCP2")
 ```
 
-[GitHub](https://github.com/olatunjijohnson/SDALGCP){.btn .btn-primary .btn-sm}
+[CRAN](https://cran.r-project.org/package=SDALGCP2){.btn .btn-primary .btn-sm}
+[GitHub](https://github.com/olatunjijohnson/SDALGCP2){.btn .btn-outline-secondary .btn-sm}
+:::
+
+::: {.card .p-3 .mb-3}
+### spLeakage
+
+An R package to detect and quantify **spatial information leakage** in
+predictive modelling.
+
+```r
+remotes::install_github("olatunjijohnson/spLeakage")
+```
+
+[GitHub](https://github.com/olatunjijohnson/spLeakage){.btn .btn-primary .btn-sm}
 :::
 
 ::: {.card .p-3 .mb-3}
@@ -43,13 +57,14 @@ remotes::install_github("olatunjijohnson/ESPENAPI")
 
 An R package and Shiny application for teaching **model-based geostatistics**,
 walking learners through the full workflow: exploration → variogram → model
-fitting → prediction. Published in *PLOS ONE* (2021).
+fitting → prediction. Published in *PLOS ONE* (2021). Now on **CRAN**.
 
 ```r
-remotes::install_github("olatunjijohnson/MBGapp")
+install.packages("MBGapp")
 ```
 
-[GitHub](https://github.com/olatunjijohnson/MBGapp){.btn .btn-primary .btn-sm}
+[CRAN](https://cran.r-project.org/package=MBGapp){.btn .btn-primary .btn-sm}
+[GitHub](https://github.com/olatunjijohnson/MBGapp){.btn .btn-outline-secondary .btn-sm}
 [Launch app](https://olatunjijohnson.shinyapps.io/mbgapp/){.btn .btn-outline-secondary .btn-sm}
 [Paper](https://doi.org/10.1371/journal.pone.0262145){.btn .btn-outline-secondary .btn-sm}
 :::

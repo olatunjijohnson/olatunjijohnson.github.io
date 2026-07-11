@@ -8,7 +8,7 @@ toc: false
 ::: {.column width="65%"}
 # Dr Olatunji Johnson
 
-I'm a Lecturer in Statistics in the Department of Mathematics at [**The University of Manchester**](https://www.manchester.ac.uk/)**.** I was formerly a post-doctoral researcher and PhD student at **CHICAS**, Lancaster Medical School, **Lancaster University** (UK). My PhD was supervised by **Prof. Peter Diggle**, **Prof. Emanuele Giorgi** and **Prof. Jo Knight**.
+I'm a Senior Lecturer in Statistics (from 1 August 2026) in the Department of Mathematics at [**The University of Manchester**](https://www.manchester.ac.uk/)**.** I was formerly a post-doctoral researcher and PhD student at **CHICAS**, Lancaster Medical School, **Lancaster University** (UK). My PhD was supervised by **Prof. Peter Diggle**, **Prof. Emanuele Giorgi** and **Prof. Jo Knight**.
 
 My research develops novel Model-based Geostatistical (MBG) methods to provide valuable answers to many global public health questions and support informed decision-making in low-resource settings. I have worked and currently working on
 several global public health problems including COPD, malaria and neglected tropical diseases (NTDs) such as river blindness, soil-transmitted helminths, schistosomiasis, Trachoma, Loiasis.
@@ -25,6 +25,12 @@ several global public health problems including COPD, malaria and neglected trop
 
 ## News
 
+- **Jul 2026** — Promoted to **Senior Lecturer** in Statistics at The University
+  of Manchester, effective 1 August 2026.
+- **Jul 2026** — **SDALGCP2** (the successor to SDALGCP) and **MBGapp** are now
+  on **CRAN**, and a new package, **spLeakage**, is available on
+  [GitHub](https://github.com/olatunjijohnson/spLeakage). See the
+  [Software](/software.html) page.
 - **Mar 2026** — New preprint: *Decoupling Distance and Networks — Hybrid Graph
   Attention–Geostatistical Methods for Spatio-temporal Risk Mapping*. See
   [Publications](/publications/).
