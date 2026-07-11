@@ -93,21 +93,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Software",
+    "title": "About me",
     "section": "",
     "text": "I’m a Senior Lecturer in Statistics (from 1 August 2026) in the Department of Mathematics at The University of Manchester. I was formerly a post-doctoral researcher and PhD student at CHICAS, Lancaster Medical School, Lancaster University (UK). My PhD was supervised by Prof. Peter Diggle, Prof. Emanuele Giorgi and Prof. Jo Knight.\nMy research develops novel Model-based Geostatistical (MBG) methods to provide valuable answers to many global public health questions and support informed decision-making in low-resource settings. I have worked and currently working on several global public health problems including COPD, malaria and neglected tropical diseases (NTDs) such as river blindness, soil-transmitted helminths, schistosomiasis, Trachoma, Loiasis.\nDownload CV View Publications Email"
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
-    "title": "Software",
+    "title": "About me",
     "section": "News",
     "text": "News\n\nJul 2026 — Promoted to Senior Lecturer in Statistics at The University of Manchester, effective 1 August 2026.\nJul 2026 — SDALGCP2 (the successor to SDALGCP) and MBGapp are now on CRAN, and a new package, spLeakage, is available on GitHub. See the Software page.\nMar 2026 — New preprint: Decoupling Distance and Networks — Hybrid Graph Attention–Geostatistical Methods for Spatio-temporal Risk Mapping. See Publications.\nFeb 2026 — New paper on disentangling spatial interference and spatial confounding biases in causal inference.\nJan 2026 — Delivered the Advanced Geostatistical Modelling workshop at FUTA, Nigeria. Materials here.\n2025 — Released ESPENAPI (NTD data access) and variogramApp (now hosted online). See the Software page."
   },
   {
     "objectID": "index.html#contact",
     "href": "index.html#contact",
-    "title": "Software",
+    "title": "About me",
     "section": "Contact",
     "text": "Contact\nEmail: olatunji.johnson@manchester.ac.uk\nORCID: https://orcid.org/0000-0002-4080-0999\nGoogle Scholar: https://scholar.google.com/citations?user=gn9CZVYAAAAJ&hl=en\nGitHub: https://github.com/olatunjijohnson"
   },
